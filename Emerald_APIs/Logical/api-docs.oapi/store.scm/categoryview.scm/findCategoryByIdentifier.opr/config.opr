@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1616782267092"
+    createdUser="STUART.WALKER"
+    id="-6218b775:1786f918c64:-7eaf:2136287763:-807255066"
+    type="operation_resource" updatedTimestamp="1616782267092"
+    updatedUser="STUART.WALKER" version="1.0">
+    <syncdetails compare="255001650" lastSynced="1616782267092" sourceid="-6218b775:1786f918c64:-7eaf">
+        <sourcepath path="paths"/>
+        <sourcepath path="/store/{storeId}/categoryview/{categoryIdentifier}"/>
+        <sourcepath path="GET"/>
+    </syncdetails>
+    <documentation>
+        <description value="Gets category details based on its identifier (not the ID assigned by the database)."/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="124,199,255"
+        dependencies="-6218b775:1786f918c64:-7eaf:1984149904:408339756,-6218b775:1786f918c64:-7eaf:0:-332410441,-6218b775:1786f918c64:-7eaf:0:-1551637993"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="-6218b775:1786f918c64:-7eaf:1984149904:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="-6218b775:1786f918c64:-7eaf:1984149904:408339756"
+        maxTime="0"
+        mepEndSchemaID="-6218b775:1786f918c64:-7eaf:0:-1551637993"
+        mepEndSchemaNodeFormatter="JSON.nodeformatter"
+        mepEndSchemaroot="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/v3/api-docs#/definitions/CatalogGroupDetailArray[Object]"
+        mepEndUsed="true"
+        mepStartSchemaID="-6218b775:1786f918c64:-7eaf:0:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="GET /store/{storeId}/categoryview/{categoryIdentifier}"
+        mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="-6218b775:1786f918c64:-7eaf:1984149904:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7" value="" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="Accept" type="7"
+                        value="application/json" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="application/json" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/search/resources/store/{storeId}/categoryview/{categoryIdentifier}"
+                consumerType="Participate" filterHeaders="true"
+                filterMethod="true" filterResourcePath="true" template="true">
+                <filterHeadersList>
+                    <header disabled="true" name="Accept" type="7" value="application/json"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

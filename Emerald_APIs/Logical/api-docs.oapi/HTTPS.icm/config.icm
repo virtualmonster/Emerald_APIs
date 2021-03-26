@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1616782267323"
+    createdUser="STUART.WALKER"
+    id="-6218b775:1786f918c64:-7eaf:1984149904:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1616782267323" updatedUser="STUART.WALKER" version="1.1">
+    <syncdetails compare="-1309247278" lastSynced="1616782267323" sourceid="-6218b775:1786f918c64:-7eaf">
+        <sourcepath path="servers"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="50,92,128"/>
+    </resourceConfig>
+</editableResource>

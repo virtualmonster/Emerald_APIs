@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1616782805378"
+    createdUser="STUART.WALKER" id="-6218b775:1786f918c64:-7c22"
+    type="test_resource" updatedTimestamp="1616783073952"
+    updatedUser="STUART.WALKER" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="-6218b775:1786f918c64:-7ccf"
+                selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
+                type="send_request_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="&quot;Text&quot; on resource &quot;/search/resources/api/v2/products?storeId={storeId}&amp;categoryId={categoryId}&amp;searchTerm={searchTerm}&amp;id={id}&amp;productId={productId}&amp;partNumber={partNumber}&amp;limit={limit}&amp;offset={offset}&amp;associationType={associationType}&amp;attributeKeyword={attributeKeyword}&amp;catalogId={catalogId}&amp;contractId={contractId}&amp;currency={currency}&amp;langId={langId}&amp;checkEntitlement={checkEntitlement}&amp;attachmentFilter={attachmentFilter}&amp;profileName={profileName}&quot; using schema &quot;Text&quot; via &quot;HTTPS&quot;" transport="-6218b775:1786f918c64:-7eaf:1984149904:408339756">
+                    <headerMessage meTy="Message" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="MessageType" type="7"
+                            value="http.text.message.type" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Method" type="7"
+                            value="GET" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction exp="GET" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="URL" type="7"
+                            value="/search/resources/api/v2/products?storeId={storeId}&amp;categoryId={categoryId}&amp;searchTerm={searchTerm}&amp;id={id}&amp;productId={productId}&amp;partNumber={partNumber}&amp;limit={limit}&amp;offset={offset}&amp;associationType={associationType}&amp;attributeKeyword={attributeKeyword}&amp;catalogId={catalogId}&amp;contractId={contractId}&amp;currency={currency}&amp;langId={langId}&amp;checkEntitlement={checkEntitlement}&amp;attachmentFilter={attachmentFilter}&amp;profileName={profileName}" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="/search/resources/api/v2/products?storeId={storeId}&amp;categoryId={categoryId}&amp;searchTerm={searchTerm}&amp;id={id}&amp;productId={productId}&amp;partNumber={partNumber}&amp;limit={limit}&amp;offset={offset}&amp;associationType={associationType}&amp;attributeKeyword={attributeKeyword}&amp;catalogId={catalogId}&amp;contractId={contractId}&amp;currency={currency}&amp;langId={langId}&amp;checkEntitlement={checkEntitlement}&amp;attachmentFilter={attachmentFilter}&amp;profileName={profileName}" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c meTy="String" name="Version" type="7"
+                                value="" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Message" name="httpHeaders"
+                                type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                                <_c meTy="String" name="Accept" type="7"
+                                    value="application/json" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="application/json" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                            </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                type="8" value="true" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction exp="true" type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                        </_c>
+                    </headerMessage>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c coreTypeInt="7" coreTypeName="String"
+                            name="text"
+                            nodeFormatter="rest_nodeformatter"
+                            sch="Text" type="12" version="1.2">
+                            <fieldExpander
+                                fieldExpanderID="rest_fieldexpander"
+                                fieldSchema="-6218b775:1786f918c64:-7eaf:0:-332410441" fieldSchemaRoot="GET /api/v2/products"/>
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction type="4"/>
+                                </fieldAction>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="7"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c assocdefid="GET /api/v2/products"
+                                name="GET /api/v2/products"
+                                sch="-6218b775:1786f918c64:-7eaf:0:-332410441"
+                                type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                                <_c name="storeId"
+                                    sch="-6218b775:1786f918c64:-7eaf:0:-332410441"
+                                    type="7" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction exp="11" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c name="partNumber" optional="true"
+                                    sch="-6218b775:1786f918c64:-7eaf:0:-332410441"
+                                    type="7" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="LR-LITB-0008" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c name="body" optional="true"
+                                    sch="-6218b775:1786f918c64:-7eaf:0:-332410441"
+                                    type="12" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    <_c name="text"
+                                    sch="-6218b775:1786f918c64:-7eaf:0:-332410441"
+                                    type="7" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </_c>
+                                </_c>
+                            </_c>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+            <editableResource id="-6218b775:1786f918c64:-7ccb"
+                selfDescribing="Receive and validate a response to the request you have sent."
+                type="receive_reply_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="&quot;Text&quot; using schema &quot;Text&quot;"
+                    sendRequestID="-6218b775:1786f918c64:-7ccf" transport="-6218b775:1786f918c64:-7eaf:1984149904:408339756">
+                    <headerMessage type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c name="httpDetails" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c name="httpHeaders" type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                        </_c>
+                    </headerMessage>
+                    <subconfig MessageType="http.text.message.type"
+                        URL="" _version="1.1" allowSubPath="false"
+                        consumerType="Participate" filterHeaders="false"
+                        filterMethod="false" filterResourcePath="false"
+                        formatter="HTTP_Message" transport="-6218b775:1786f918c64:-7eaf:1984149904:408339756"/>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="1">
+                                <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c coreTypeInt="7" coreTypeName="String"
+                            name="text"
+                            nodeFormatter="JSON.nodeformatter"
+                            sch="Text" type="12" version="1.2">
+                            <fieldExpander
+                                fieldExpanderID="JSON.fieldexpander"
+                                fieldSchema="-6218b775:1786f918c64:-7eaf:0:-1551637993" fieldSchemaRoot="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/v3/api-docs#/definitions/ProductDetail[Object]"/>
+                            <contentTree>{"contents":[{"hasSingleSKU":false,"storeID":"11","parentCatalogGroupID":"/10501/10503","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","buyable":"true","shortDescription":"A modern and sleek lamp that brightens up and accents your home's living room.","seo":{"href":"/nordic-lamp-lr-litb-0008"},"longDescription":"Light up and modernize your living room decor with the Nordic lamp. The lamp features a chrome base, a high quality lamp shade, and an open design that's easy to keep clean.  Some assembly required.","thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","partNumber":"LR-LITB-0008","name":"Nordic Lamp","price":[{"usage":"Display","description":"L","currency":"USD","value":"300.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"249.99"}],"numberOfSKUs":1,"attributes":[{"identifier":"Color","usage":"Defining","values":[{"identifier":"chrome","sequence":"1.0","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003001","image1":"/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png","value":"Chrome","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","key":"7000000000000000501","swatchable":"false"},{"identifier":"ProductDimensions","usage":"Descriptive","values":[{"sequence":"6.0","identifier":"28x13x13","unitID":"INH","id":"7000000000000003083","value":"28\"x13\"x23\""}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Product Dimensions","facetable":"true","id":"7000000000000000510","comparable":"true","key":"7000000000000000510","swatchable":"false"},{"identifier":"ItemWeight","usage":"Descriptive","values":[{"identifier":"10lbs","sequence":"1.0","unitID":"LBR","id":"7000000000000003097","value":"10 lbs"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"2.0","storeDisplay":"false","name":"Item Weight","facetable":"true","id":"7000000000000000511","comparable":"true","key":"7000000000000000511","swatchable":"false"},{"identifier":"Materials","usage":"Descriptive","values":[{"identifier":"cotton-steel","sequence":"13.0","unitID":"Steel","id":"7000000000000003044","value":"Cotton, Steel"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"3.0","storeDisplay":"false","name":"Material","facetable":"true","id":"7000000000000000503","comparable":"true","key":"7000000000000000503","swatchable":"false"},{"identifier":"Pattern","usage":"Descriptive","values":[{"sequence":"2.0","identifier":"Solid","unitID":"Solid","id":"7000000000000003109","value":"Solid"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"4.0","storeDisplay":"false","name":"Pattern","facetable":"true","id":"7000000000000000512","comparable":"true","key":"7000000000000000512","swatchable":"false"},{"identifier":"shade-diameter","usage":"Descriptive","values":[{"sequence":"1.0","identifier":"13","id":"7000000000000003118","value":"13"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"5.0","storeDisplay":"false","name":"Lamp Shade Diameter","facetable":"false","id":"7000000000000000520","comparable":"true","key":"7000000000000000520","swatchable":"false"},{"identifier":"bulb-type","usage":"Descriptive","values":[{"identifier":"E26","sequence":"1.0","unitID":"E26","id":"7000000000000003119","value":"E26"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"6.0","storeDisplay":"false","name":"Light Bulb Type","facetable":"false","id":"7000000000000000521","comparable":"true","key":"7000000000000000521","swatchable":"false"},{"identifier":"maximun-bulb-waltage","usage":"Descriptive","values":[{"identifier":"60watts","sequence":"1.0","unitID":"watts","id":"7000000000000003120","value":"60 watts"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"7.0","storeDisplay":"false","name":"Maximum Light Bulb Wattage","facetable":"false","id":"7000000000000000522","comparable":"true","key":"7000000000000000522","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","name":"Nordic Lamp Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"}],"type":"product","id":"14198","items":[{"hasSingleSKU":false,"storeID":"11","parentCatalogGroupID":"/10501/10503","parentCatalogEntryID":"14198","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","buyable":"true","shortDescription":"A modern and sleek lamp that brightens up and accents your home's living room.","seo":{"href":"/nordic-lamp-lr-litb-0008-0001"},"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","partNumber":"LR-LITB-0008-0001","name":"Nordic Lamp","price":[{"usage":"Display","description":"L","currency":"USD","value":"300.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"249.99"}],"attributes":[{"identifier":"Color","usage":"Defining","values":[{"identifier":"chrome","sequence":"1.0","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003001","image1":"/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png","value":"Chrome","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","key":"7000000000000000501","swatchable":"false"},{"identifier":"ProductDimensions","usage":"Descriptive","values":[{"sequence":"6.0","identifier":"28x13x13","unitID":"INH","id":"7000000000000003083","value":"28\"x13\"x23\""}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Product Dimensions","facetable":"true","id":"7000000000000000510","comparable":"true","key":"7000000000000000510","swatchable":"false"},{"identifier":"ItemWeight","usage":"Descriptive","values":[{"identifier":"10lbs","sequence":"1.0","unitID":"LBR","id":"7000000000000003097","value":"10 lbs"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"2.0","storeDisplay":"false","name":"Item Weight","facetable":"true","id":"7000000000000000511","comparable":"true","key":"7000000000000000511","swatchable":"false"},{"identifier":"Materials","usage":"Descriptive","values":[{"identifier":"cotton-steel","sequence":"13.0","unitID":"Steel","id":"7000000000000003044","value":"Cotton, Steel"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"3.0","storeDisplay":"false","name":"Material","facetable":"true","id":"7000000000000000503","comparable":"true","key":"7000000000000000503","swatchable":"false"},{"identifier":"Pattern","usage":"Descriptive","values":[{"sequence":"2.0","identifier":"Solid","unitID":"Solid","id":"7000000000000003109","value":"Solid"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"4.0","storeDisplay":"false","name":"Pattern","facetable":"true","id":"7000000000000000512","comparable":"true","key":"7000000000000000512","swatchable":"false"},{"identifier":"shade-diameter","usage":"Descriptive","values":[{"sequence":"1.0","identifier":"13","id":"7000000000000003118","value":"13"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"5.0","storeDisplay":"false","name":"Lamp Shade Diameter","facetable":"false","id":"7000000000000000520","comparable":"true","key":"7000000000000000520","swatchable":"false"},{"identifier":"bulb-type","usage":"Descriptive","values":[{"identifier":"E26","sequence":"1.0","unitID":"E26","id":"7000000000000003119","value":"E26"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"6.0","storeDisplay":"false","name":"Light Bulb Type","facetable":"false","id":"7000000000000000521","comparable":"true","key":"7000000000000000521","swatchable":"false"},{"identifier":"maximun-bulb-waltage","usage":"Descriptive","values":[{"identifier":"60watts","sequence":"1.0","unitID":"watts","id":"7000000000000003120","value":"60 watts"}],"displayable":"true","merchandisable":"false","searchable":"false","sequence":"7.0","storeDisplay":"false","name":"Maximum Light Bulb Wattage","facetable":"false","id":"7000000000000000522","comparable":"true","key":"7000000000000000522","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","name":"Nordic Lamp Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"}],"parent":"/search/resources/api/v2/categories?storeId=11&amp;id=10503","id":"14199","type":"item"}]}],"total":1}<defaultActions>
+                                    <defaultMessageActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultMessageActions>
+                                    <defaultScalarActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultScalarActions>
+                                </defaultActions>
+                                <updates>
+                                    <updateField path="/text/Object">
+                                    <_c assocdefid="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/v3/api-docs#/definitions/ProductDetail[Object]"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents">
+                                    <_c assocdefid="Array" type="12"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/hasSingleSKU">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/storeID">
+                                    <_c value="11"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/parentCatalogGroupID">
+                                    <_c value="/10501/10503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/fullImageRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/fullImage">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/buyable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/shortDescription">
+                                    <_c value="A modern and sleek lamp that brightens up and accents your home's living room."/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/seo/href">
+                                    <_c value="/nordic-lamp-lr-litb-0008"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/longDescription">
+                                    <_c value="Light up and modernize your living room decor with the Nordic lamp. The lamp features a chrome base, a high quality lamp shade, and an open design that's easy to keep clean.  Some assembly required."/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/thumbnailRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/thumbnail">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/partNumber">
+                                    <_c value="LR-LITB-0008"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/name">
+                                    <_c value="Nordic Lamp"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/0/usage">
+                                    <_c value="Display"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/0/description">
+                                    <_c value="L"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/0/currency">
+                                    <_c value="USD"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/0/value">
+                                    <_c value="300.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1/usage">
+                                    <_c value="Offer"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1/contractId">
+                                    <_c value="-11005"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1/description">
+                                    <_c value="I"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1/currency">
+                                    <_c value="USD"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/price/1/value">
+                                    <_c value="249.99"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/numberOfSKUs">
+                                    <_c value="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/identifier">
+                                    <_c value="Color"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/usage">
+                                    <_c value="Defining"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/identifier">
+                                    <_c value="chrome"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/unitOfMeasure">
+                                    <_c value="one"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/unitID">
+                                    <_c value="C62"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/id">
+                                    <_c value="7000000000000003001"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/image1">
+                                    <_c value="/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/value">
+                                    <_c value="Chrome"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/values/0/image1path">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/name">
+                                    <_c value="Color"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/id">
+                                    <_c value="7000000000000000501"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/key">
+                                    <_c value="7000000000000000501"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/0/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/identifier">
+                                    <_c value="ProductDimensions"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0/sequence">
+                                    <_c value="6.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0/identifier">
+                                    <_c value="28x13x13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0/unitID">
+                                    <_c value="INH"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0/id">
+                                    <_c value="7000000000000003083"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/values/0/value">
+                                    <_c value="28&quot;x13&quot;x23&quot;"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/name">
+                                    <_c value="Product Dimensions"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/id">
+                                    <_c value="7000000000000000510"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/key">
+                                    <_c value="7000000000000000510"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/1/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/identifier">
+                                    <_c value="ItemWeight"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0/identifier">
+                                    <_c value="10lbs"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0/unitID">
+                                    <_c value="LBR"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0/id">
+                                    <_c value="7000000000000003097"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/values/0/value">
+                                    <_c value="10 lbs"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/sequence">
+                                    <_c value="2.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/name">
+                                    <_c value="Item Weight"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/id">
+                                    <_c value="7000000000000000511"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/key">
+                                    <_c value="7000000000000000511"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/2/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3">
+                                    <_c name="3"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/identifier">
+                                    <_c value="Materials"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0/identifier">
+                                    <_c value="cotton-steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0/sequence">
+                                    <_c value="13.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0/unitID">
+                                    <_c value="Steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0/id">
+                                    <_c value="7000000000000003044"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/values/0/value">
+                                    <_c value="Cotton, Steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/sequence">
+                                    <_c value="3.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/name">
+                                    <_c value="Material"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/id">
+                                    <_c value="7000000000000000503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/key">
+                                    <_c value="7000000000000000503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/3/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4">
+                                    <_c name="4"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/identifier">
+                                    <_c value="Pattern"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0/sequence">
+                                    <_c value="2.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0/identifier">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0/unitID">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0/id">
+                                    <_c value="7000000000000003109"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/values/0/value">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/sequence">
+                                    <_c value="4.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/name">
+                                    <_c value="Pattern"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/id">
+                                    <_c value="7000000000000000512"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/key">
+                                    <_c value="7000000000000000512"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/4/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5">
+                                    <_c name="5"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/identifier">
+                                    <_c value="shade-diameter"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values/0/identifier">
+                                    <_c value="13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values/0/id">
+                                    <_c value="7000000000000003118"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/values/0/value">
+                                    <_c value="13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/sequence">
+                                    <_c value="5.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/name">
+                                    <_c value="Lamp Shade Diameter"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/id">
+                                    <_c value="7000000000000000520"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/key">
+                                    <_c value="7000000000000000520"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/5/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6">
+                                    <_c name="6"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/identifier">
+                                    <_c value="bulb-type"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0/identifier">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0/unitID">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0/id">
+                                    <_c value="7000000000000003119"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/values/0/value">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/sequence">
+                                    <_c value="6.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/name">
+                                    <_c value="Light Bulb Type"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/id">
+                                    <_c value="7000000000000000521"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/key">
+                                    <_c value="7000000000000000521"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/6/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7">
+                                    <_c name="7"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/identifier">
+                                    <_c value="maximun-bulb-waltage"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0/identifier">
+                                    <_c value="60watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0/unitID">
+                                    <_c value="watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0/id">
+                                    <_c value="7000000000000003120"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/values/0/value">
+                                    <_c value="60 watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/sequence">
+                                    <_c value="7.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/name">
+                                    <_c value="Maximum Light Bulb Wattage"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/id">
+                                    <_c value="7000000000000000522"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/key">
+                                    <_c value="7000000000000000522"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/attributes/7/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/thumbnailRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/sequence">
+                                    <_c value="-1000.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/thumbnail">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/name">
+                                    <_c value="Nordic Lamp Main Image"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/fullImageRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/images/0/fullImage">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/type">
+                                    <_c value="product"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/id">
+                                    <_c value="14198"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/hasSingleSKU">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/storeID">
+                                    <_c value="11"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/parentCatalogGroupID">
+                                    <_c value="/10501/10503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/parentCatalogEntryID">
+                                    <_c value="14198"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/fullImageRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/fullImage">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/buyable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/shortDescription">
+                                    <_c value="A modern and sleek lamp that brightens up and accents your home's living room."/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/seo/href">
+                                    <_c value="/nordic-lamp-lr-litb-0008-0001"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/thumbnailRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/thumbnail">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/partNumber">
+                                    <_c value="LR-LITB-0008-0001"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/name">
+                                    <_c value="Nordic Lamp"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/0/usage">
+                                    <_c value="Display"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/0/description">
+                                    <_c value="L"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/0/currency">
+                                    <_c value="USD"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/0/value">
+                                    <_c value="300.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1/usage">
+                                    <_c value="Offer"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1/contractId">
+                                    <_c value="-11005"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1/description">
+                                    <_c value="I"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1/currency">
+                                    <_c value="USD"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/price/1/value">
+                                    <_c value="249.99"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/identifier">
+                                    <_c value="Color"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/usage">
+                                    <_c value="Defining"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/identifier">
+                                    <_c value="chrome"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/unitOfMeasure">
+                                    <_c value="one"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/unitID">
+                                    <_c value="C62"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/id">
+                                    <_c value="7000000000000003001"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/image1">
+                                    <_c value="/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/value">
+                                    <_c value="Chrome"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/values/0/image1path">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/swatches/sw_whitegrey.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/name">
+                                    <_c value="Color"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/id">
+                                    <_c value="7000000000000000501"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/key">
+                                    <_c value="7000000000000000501"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/0/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/identifier">
+                                    <_c value="ProductDimensions"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0/sequence">
+                                    <_c value="6.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0/identifier">
+                                    <_c value="28x13x13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0/unitID">
+                                    <_c value="INH"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0/id">
+                                    <_c value="7000000000000003083"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/values/0/value">
+                                    <_c value="28&quot;x13&quot;x23&quot;"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/name">
+                                    <_c value="Product Dimensions"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/id">
+                                    <_c value="7000000000000000510"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/key">
+                                    <_c value="7000000000000000510"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/1/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/identifier">
+                                    <_c value="ItemWeight"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0/identifier">
+                                    <_c value="10lbs"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0/unitID">
+                                    <_c value="LBR"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0/id">
+                                    <_c value="7000000000000003097"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/values/0/value">
+                                    <_c value="10 lbs"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/sequence">
+                                    <_c value="2.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/name">
+                                    <_c value="Item Weight"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/id">
+                                    <_c value="7000000000000000511"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/key">
+                                    <_c value="7000000000000000511"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/2/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3">
+                                    <_c name="3"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/identifier">
+                                    <_c value="Materials"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0/identifier">
+                                    <_c value="cotton-steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0/sequence">
+                                    <_c value="13.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0/unitID">
+                                    <_c value="Steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0/id">
+                                    <_c value="7000000000000003044"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/values/0/value">
+                                    <_c value="Cotton, Steel"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/sequence">
+                                    <_c value="3.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/name">
+                                    <_c value="Material"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/id">
+                                    <_c value="7000000000000000503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/key">
+                                    <_c value="7000000000000000503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/3/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4">
+                                    <_c name="4"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/identifier">
+                                    <_c value="Pattern"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0/sequence">
+                                    <_c value="2.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0/identifier">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0/unitID">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0/id">
+                                    <_c value="7000000000000003109"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/values/0/value">
+                                    <_c value="Solid"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/merchandisable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/searchable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/sequence">
+                                    <_c value="4.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/name">
+                                    <_c value="Pattern"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/facetable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/id">
+                                    <_c value="7000000000000000512"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/key">
+                                    <_c value="7000000000000000512"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/4/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5">
+                                    <_c name="5"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/identifier">
+                                    <_c value="shade-diameter"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values/0/identifier">
+                                    <_c value="13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values/0/id">
+                                    <_c value="7000000000000003118"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/values/0/value">
+                                    <_c value="13"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/sequence">
+                                    <_c value="5.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/name">
+                                    <_c value="Lamp Shade Diameter"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/id">
+                                    <_c value="7000000000000000520"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/key">
+                                    <_c value="7000000000000000520"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/5/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6">
+                                    <_c name="6"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/identifier">
+                                    <_c value="bulb-type"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0/identifier">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0/unitID">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0/id">
+                                    <_c value="7000000000000003119"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/values/0/value">
+                                    <_c value="E26"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/sequence">
+                                    <_c value="6.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/name">
+                                    <_c value="Light Bulb Type"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/id">
+                                    <_c value="7000000000000000521"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/key">
+                                    <_c value="7000000000000000521"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/6/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7">
+                                    <_c name="7"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/identifier">
+                                    <_c value="maximun-bulb-waltage"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/usage">
+                                    <_c value="Descriptive"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0/identifier">
+                                    <_c value="60watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0/sequence">
+                                    <_c value="1.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0/unitID">
+                                    <_c value="watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0/id">
+                                    <_c value="7000000000000003120"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/values/0/value">
+                                    <_c value="60 watts"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/displayable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/merchandisable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/searchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/sequence">
+                                    <_c value="7.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/name">
+                                    <_c value="Maximum Light Bulb Wattage"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/facetable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/id">
+                                    <_c value="7000000000000000522"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/comparable">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/key">
+                                    <_c value="7000000000000000522"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/attributes/7/swatchable">
+                                    <_c value="false"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/thumbnailRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/sequence">
+                                    <_c value="-1000.0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/thumbnail">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/name">
+                                    <_c value="Nordic Lamp Main Image"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/fullImageRaw">
+                                    <_c value="/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/images/0/fullImage">
+                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/lighting/light8_a1_600.png"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/parent">
+                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10503"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/id">
+                                    <_c value="14199"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/items/0/type">
+                                    <_c value="item"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/total">
+                                    <_c value="1"/>
+                                    </updateField>
+                                </updates>
+                            </contentTree>
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction type="7"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

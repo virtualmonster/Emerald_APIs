@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20201208_1730" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 26 March 2021" creationVersion="10.1.2"
+    domain="default" extDocPrefix="" name="Emerald_APIs"
+    owner="STUART.WALKER" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000178-6f91-8b6a-0004-b26295b557a8">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:7443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!dfb7" dpsUser=""
+                driverClass="com.ibm.db2.jcc.DB2Driver"
+                password="#com.ghc.1!cc4921087E1112924AC2446EE34EA2E47276113C55330CAA6A55"
+                url="jdbc:db2://10.134.59.18.nip.io:50000/vresults" user="db2inst1">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!704e"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="db2inst1"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="true" hostname="10.134.59.19.nip.io"
+            port="443" projectId="44770950" projectName="Calculator"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!2836" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+    <resultPublishers disableAll="false"/>
+</_c>

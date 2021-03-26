@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1616782267463"
+    createdUser="STUART.WALKER"
+    id="-6218b775:1786f918c64:-7eaf:0:-332410441"
+    selfDescribing="Query Service API" type="parameterized_url_schema"
+    updatedTimestamp="1616782267463" updatedUser="STUART.WALKER" version="1.0">
+    <syncdetails compare="1616782267057" lastSynced="1616782267463" sourceid="-6218b775:1786f918c64:-7eaf"/>
+    <documentation>
+        <description value="Query Service Api Documentation"/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig basePath="/search/resources" name="Query Service API">
+            <url templateName="GET /store/{storeId}/categoryview/{categoryIdentifier}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="categoryIdentifier" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/categoryview/@top">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="@top"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="depthAndLimit"
+                    queryName="depthAndLimit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/categoryview/byParentCategory/{parentCategoryId}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="byParentCategory" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="parentCategoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="depthAndLimit"
+                    queryName="depthAndLimit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/categoryview/byId/{categoryId}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="byId"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="categoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/categoryview/byIds">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="byIds"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue="" parameterName="id"
+                    queryName="id" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/categoryview/byIdentifiers">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categoryview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="byIdentifiers" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="identifier" queryName="identifier" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/{partNumber}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="partNumber" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byPartNumber/{partNumber}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="byPartNumber" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="partNumber" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/bySearchTerm/{searchTerm}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="bySearchTerm" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="searchTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facet" queryName="facet" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facetLimit" queryName="facetLimit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="advancedFacetList"
+                    queryName="advancedFacetList" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterFacet" queryName="filterFacet" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterTerm" queryName="filterTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="manufacturer"
+                    queryName="manufacturer" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="minPrice" queryName="minPrice" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="maxPrice" queryName="maxPrice" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="searchType" queryName="searchType" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="categoryId" queryName="categoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="physicalStoreIds"
+                    queryName="physicalStoreIds" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byCategory/{categoryId}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="byCategory"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="categoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facet" queryName="facet" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facetLimit" queryName="facetLimit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="advancedFacetList"
+                    queryName="advancedFacetList" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterFacet" queryName="filterFacet" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterTerm" queryName="filterTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="manufacturer"
+                    queryName="manufacturer" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="minPrice" queryName="minPrice" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="maxPrice" queryName="maxPrice" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="searchType" queryName="searchType" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byCategoryForAdmin/{categoryId}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="byCategoryForAdmin" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="categoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facet" queryName="facet" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="facetLimit" queryName="facetLimit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="advancedFacetList"
+                    queryName="advancedFacetList" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterFacet" queryName="filterFacet" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="filterTerm" queryName="filterTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="manufacturer"
+                    queryName="manufacturer" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="minPrice" queryName="minPrice" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="maxPrice" queryName="maxPrice" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="orderBy" queryName="orderBy" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="searchType" queryName="searchType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="debug" queryName="debug" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byPartNumbers">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="byPartNumbers" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="partNumber" queryName="partNumber" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byIds">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="byIds"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue="" parameterName="id"
+                    queryName="id" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/productview/byId/{productId}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productview" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="byId"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="productId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/sitecontent/categorySuggestions">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="sitecontent" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="categorySuggestions" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="limit" queryName="limit" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="count" queryName="count" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="termsSort" queryName="termsSort" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/sitecontent/keywordSuggestionsByTerm/{term}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="sitecontent" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="keywordSuggestionsByTerm" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="term" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="limit" queryName="limit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="termsSort" queryName="termsSort" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/sitecontent/suggestions">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="sitecontent" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="suggestions" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="suggestType" queryName="suggestType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="term" queryName="term" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="limit" queryName="limit" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="count" queryName="count" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="termsSort" queryName="termsSort" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/sitecontent/productSuggestionsBySearchTerm/{searchTerm}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="sitecontent" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="productSuggestionsBySearchTerm"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="searchTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageSize" queryName="pageSize" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="pageNumber" queryName="pageNumber" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="searchType" queryName="searchType" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="term" queryName="term" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="termsSort" queryName="termsSort" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /store/{storeId}/sitecontent/brandSuggestions">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="store"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="storeId" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="sitecontent" parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="brandSuggestions" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="limit" queryName="limit" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="termsSort" queryName="termsSort" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/configuration">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="configuration" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="nodeName" queryName="nodeName" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="locale" queryName="locale" type="7"/>
+            </url>
+            <url templateName="POST /api/v2/configuration">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="configuration" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="nodeName" queryName="nodeName" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="locale" queryName="locale" type="7"/>
+            </url>
+            <url templateName="PATCH /api/v2/configuration">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="configuration" parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="nodeName" queryName="nodeName" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="locale" queryName="locale" type="7"/>
+            </url>
+            <url templateName="POST /api/v2/documents/bod">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="bod"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/documents/profiles/{profileName}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="profiles"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="profileName" type="7"/>
+            </url>
+            <url templateName="PUT /api/v2/documents/profiles/{profileName}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="profiles"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="profileName" type="7"/>
+            </url>
+            <url templateName="POST /api/v2/documents/profiles/{profileName}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="profiles"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="profileName" type="7"/>
+            </url>
+            <url templateName="DELETE /api/v2/documents/profiles/{profileName}">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="profiles"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="true" isParameterized="true"
+                    isParticipateToExpension="true" literal=""
+                    parameterName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/documents/profiles">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="documents"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="profiles"
+                    parameterName="" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/categories">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="categories"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="storeId" queryName="storeId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="identifier" queryName="identifier" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="id" queryName="id" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="parentCategoryId"
+                    queryName="parentCategoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="depthAndLimit"
+                    queryName="depthAndLimit" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/products">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="products"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="storeId" queryName="storeId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="categoryId" queryName="categoryId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="searchTerm" queryName="searchTerm" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="id" queryName="id" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="productId" queryName="productId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="partNumber" queryName="partNumber" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="limit" queryName="limit" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="offset" queryName="offset" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="associationType"
+                    queryName="associationType" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attributeKeyword"
+                    queryName="attributeKeyword" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="catalogId" queryName="catalogId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="contractId" queryName="contractId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="currency" queryName="currency" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="langId" queryName="langId" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="checkEntitlement"
+                    queryName="checkEntitlement" type="8"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="attachmentFilter"
+                    queryName="attachmentFilter" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="profileName" queryName="profileName" type="7"/>
+            </url>
+            <url templateName="GET /api/v2/urls">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v2"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="urls"
+                    parameterName="" type="7"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="true" literalValue=""
+                    parameterName="storeId" queryName="storeId" type="2"/>
+                <query isNameValuePair="true" isParameterized="true"
+                    isRequired="false" literalValue=""
+                    parameterName="identifier" queryName="identifier" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

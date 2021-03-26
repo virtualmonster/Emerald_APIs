@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1616782267075"
+    createdUser="STUART.WALKER"
+    id="-6218b775:1786f918c64:-7eaf:-1956845042:1544155186"
+    selfDescribing="https commerce-preview.sbx0097.play.hclsofy.com"
+    type="http_transport" updatedTimestamp="1616782267075"
+    updatedUser="STUART.WALKER" version="1.0">
+    <syncdetails compare="-771136146" lastSynced="1616782267075" sourceid="-6218b775:1786f918c64:-7eaf">
+        <sourcepath path="servers"/>
+        <sourcepath path="url"/>
+    </syncdetails>
+    <documentation>
+        <description value="Generated server url"/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!e2d9" credPreemptive="false"
+            credType="0" credUser=""
+            httpHost="commerce-preview.sbx0097.play.hclsofy.com"
+            httpNtlmDomain="" httpPort="443" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!b0ec" httpProxyPort=""
+            httpProxyUsername="" httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            useSsl="true" version="4">
+            <kerberos Anon="false" CStyle="Username / Password"
+                Conf="false" Custom="true" Enabled="false" Integ="false"
+                MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth clientassertion="" clientid="" clientsecret=""
+                enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>
