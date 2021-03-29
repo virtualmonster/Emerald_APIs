@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617014914402"
     createdUser="STUART.WALKER" id="7983253e:1787d7c7628:-6ef5"
-    type="test_resource" updatedTimestamp="1617022138795"
+    type="test_resource" updatedTimestamp="1617023606829"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -15,7 +15,7 @@
                     killProcess="false" name="&quot;find /it-vol&quot;"
                     timeout="" waitUntilComplete="true">
                     <remote connectionType="LOCAL" host=""
-                        password="#com.ghc.1!dc19" user=""
+                        password="#com.ghc.1!24ba" user=""
                         userType="TAGGED" workingDir=""/>
                     <fieldActionGroup>
                         <fieldAction enabled="false" type="1">
