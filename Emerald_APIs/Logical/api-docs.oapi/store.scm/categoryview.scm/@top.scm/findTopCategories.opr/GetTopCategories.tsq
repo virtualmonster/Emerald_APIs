@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1616794262729"
     createdUser="STUART.WALKER" id="-6218b775:1786f918c64:-771a"
-    type="test_resource" updatedTimestamp="1617007203965"
+    type="test_resource" updatedTimestamp="1617007671035"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -308,6 +308,14 @@
                                     <updateField path="/text/Object/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10501"/>
                                     </updateField>
@@ -360,6 +368,14 @@
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/0/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10502" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10502"/>
                                     </updateField>
@@ -399,6 +415,14 @@
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/0/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10503" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10503"/>
                                     </updateField>
@@ -438,6 +462,14 @@
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/2">
                                     <_c name="2"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/0/catalogGroupView/2/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10504" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/0/catalogGroupView/2/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10504"/>
                                     </updateField>
@@ -477,6 +509,14 @@
                                     <updateField path="/text/Object/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10509" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10509"/>
                                     </updateField>
@@ -529,6 +569,14 @@
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/1/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10510" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10510"/>
                                     </updateField>
@@ -568,6 +616,14 @@
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/1/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10511" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10511"/>
                                     </updateField>
@@ -607,6 +663,14 @@
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/2">
                                     <_c name="2"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/1/catalogGroupView/2/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10512" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/1/catalogGroupView/2/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10512"/>
                                     </updateField>
@@ -703,6 +767,14 @@
                                     <updateField path="/text/Object/catalogGroupView/2/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/2/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10514" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/2/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10514"/>
                                     </updateField>
@@ -742,6 +814,14 @@
                                     <updateField path="/text/Object/catalogGroupView/2/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/2/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10515" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/2/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10515"/>
                                     </updateField>
@@ -841,6 +921,14 @@
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/3/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10506" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10506"/>
                                     </updateField>
@@ -880,6 +968,14 @@
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/3/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10507" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10507"/>
                                     </updateField>
@@ -919,6 +1015,14 @@
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/2">
                                     <_c name="2"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/3/catalogGroupView/2/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10508" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/3/catalogGroupView/2/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10508"/>
                                     </updateField>
@@ -1015,6 +1119,14 @@
                                     <updateField path="/text/Object/catalogGroupView/4/catalogGroupView/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/4/catalogGroupView/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10517" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/4/catalogGroupView/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10517"/>
                                     </updateField>
@@ -1054,6 +1166,14 @@
                                     <updateField path="/text/Object/catalogGroupView/4/catalogGroupView/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/catalogGroupView/4/catalogGroupView/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10518" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/catalogGroupView/4/catalogGroupView/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0097.play.hclsofy.com/search/resources/store/11/categoryview/byId/10518"/>
                                     </updateField>
