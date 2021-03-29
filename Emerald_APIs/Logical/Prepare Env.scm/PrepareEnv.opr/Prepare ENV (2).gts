@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617014954271"
     createdUser="STUART.WALKER" id="7983253e:1787d7c7628:-6e78"
-    type="test_suite_resource" updatedTimestamp="1617014954271"
+    type="test_suite_resource" updatedTimestamp="1617015190293"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
     <resourceConfig>
@@ -16,8 +16,9 @@
                 <environmentTasks preventExecutionOnFailure="false"/>
             </resourceConfig>
             <testItem continueOnFail="true"
-                id="7983253e:1787d7c7628:-7718" lkname="LoadJDBCDriver"
-                lkpath="Prepare Env/PrepareEnv/LoadJDBCDriver" type="test_resource"/>
+                id="7983253e:1787d7c7628:-6ef5"
+                lkname="LoadJDBCDriver (2)"
+                lkpath="Prepare Env/PrepareEnv/LoadJDBCDriver (2)" type="test_resource"/>
         </scenario>
     </resourceConfig>
 </editableResource>
