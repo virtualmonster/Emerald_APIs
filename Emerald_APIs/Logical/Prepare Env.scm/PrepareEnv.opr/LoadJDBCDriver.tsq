@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617013940918"
     createdUser="STUART.WALKER" id="7983253e:1787d7c7628:-7718"
-    type="test_resource" updatedTimestamp="1617015352758"
+    type="test_resource" updatedTimestamp="1617015432565"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -11,13 +11,13 @@
                 type="run_command_action" version="1.0">
                 <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
                 <resourceConfig
-                    command="cp -f %%PROJECT/ROOT_DIRECTORY%%/mssql-jdbc-9.2.1.jre8.jar /it-vol/UserLibs/JDBC"
+                    command="cp -f %%PROJECT/ROOT_DIRECTORY%%/mssql-jdbc-9.2.1.jre8.jar /it-vol/UserLibs/JDBC/"
                     description="" encoding="UTF-8" killAfter="Test"
                     killProcess="false"
-                    name="&quot;cp -f %%PROJECT/ROOT_DIRECTORY%%/mssql-jdbc-9.2.1.jre8.jar /it-vol/UserLibs/JDBC&quot;"
+                    name="&quot;cp -f %%PROJECT/ROOT_DIRECTORY%%/mssql-jdbc-9.2.1.jre8.jar /it-vol/UserLibs/JDBC/&quot;"
                     timeout="" waitUntilComplete="true">
                     <remote connectionType="LOCAL" host=""
-                        password="#com.ghc.1!cdab" user=""
+                        password="#com.ghc.1!ddf4" user=""
                         userType="TAGGED" workingDir=""/>
                     <fieldActionGroup>
                         <fieldAction enabled="false" type="1">
