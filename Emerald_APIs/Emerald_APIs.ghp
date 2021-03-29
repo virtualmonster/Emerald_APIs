@@ -10,14 +10,14 @@
         <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
             <connectionParams ZOSEnv="false"
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
-                dpsPass="#com.ghc.1!c908" dpsUser=""
+                dpsPass="#com.ghc.1!a8b5" dpsUser=""
                 driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-                password="#com.ghc.1!0302E360A2F872221122552D0CB56A5040F4"
+                password="#com.ghc.1!cbef7E34128F4A9E4436E349A2E272701165"
                 url="jdbc:sqlserver://onetestapi-results.database.windows.net:1433;database=results;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;" user="otadmin">
                 <dpsSsl useSsl="false"/>
                 <stubSettings maxProcCallCount="10000"
                     maxResultSetRowCount="10000" maxRowCount="10000"
-                    password="#com.ghc.1!e3d3"
+                    password="#com.ghc.1!1003"
                     procedureLearningBehaviour="1" schema="" url=""
                     useIntegratedDB="true" useSsl="false" user=""/>
                 <storedProcedureFilter catalogFilterEnabled="false"
@@ -33,7 +33,7 @@
         <automationServer enabled="true" hostname="10.134.59.19.nip.io"
             port="443" projectId="44770950" projectName="Calculator"
             publishResults="false" trustSource="TRUST_ALL"
-            trustStorePassword="#com.ghc.1!7e57" trustStorePath=""/>
+            trustStorePassword="#com.ghc.1!2531" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
         permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
