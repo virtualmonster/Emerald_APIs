@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1616801694441"
     createdUser="STUART.WALKER" id="3413ef3c:17870df87e0:-7bd2"
-    selfDescribing="https comdemoauthstore-web:6443"
-    type="http_transport" updatedTimestamp="1616801694441"
+    selfDescribing="https comdemoauthquery-app:30901"
+    type="http_transport" updatedTimestamp="1617006265465"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig transportName="" transportTemplateName="HTTP">
         <messageProperties
             ReasonPhrase="No Stub available that matches the request"
             clientConnectionsPerHost="100" credDomain=""
-            credPassword="#com.ghc.1!334b" credPreemptive="false"
-            credType="0" credUser="" httpHost="comdemoauthstore-web"
-            httpNtlmDomain="" httpPort="6443" httpProxyHost=""
-            httpProxyPassword="#com.ghc.1!d59d" httpProxyPort=""
+            credPassword="#com.ghc.1!e347" credPreemptive="false"
+            credType="0" credUser="" httpHost="comdemoauthquery-app"
+            httpNtlmDomain="" httpPort="30901" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!c4e7" httpProxyPort=""
             httpProxyUsername="" httpResourceRoot=""
             httpServerSocketBindAddressOverride=""
             httpServerSocketPortOverride="" httpSocketTimeout=""
@@ -20,7 +20,7 @@
             recType="PROXY" useSsl="true" version="4">
             <kerberos Anon="false" Conf="false" Custom="true"
                 Enabled="false" Integ="false" KDC="" Loc=""
-                MutAuth="false" Principal="" Pwd="#com.ghc.1!2695"
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!032d"
                 Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
             <oauth authURL="" clientassertion="" clientid=""
                 clientsecret="" enabled="false"
