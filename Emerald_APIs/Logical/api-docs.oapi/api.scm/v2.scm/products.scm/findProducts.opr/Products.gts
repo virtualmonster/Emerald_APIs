@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1616784720141"
     createdUser="STUART.WALKER" id="-6218b775:1786f918c64:-793e"
-    type="test_suite_resource" updatedTimestamp="1616784738407"
+    type="test_suite_resource" updatedTimestamp="1617007073913"
     updatedUser="STUART.WALKER" version="1.0">
+    <documentation>
+        <description value="Simple product API tests"/>
+    </documentation>
     <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
     <resourceConfig>
         <scenario continueOnFail="true" id="-6218b775:1786f918c64:-793d"

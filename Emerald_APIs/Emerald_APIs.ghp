@@ -10,10 +10,11 @@
         <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
             <connectionParams ZOSEnv="false"
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
-                dpsPass="#com.ghc.1!dfb7" dpsUser=""
+                dpsPass="#com.ghc.1!8103" dpsUser=""
                 driverClass="com.ibm.db2.jcc.DB2Driver"
                 password="#com.ghc.1!cc4921087E1112924AC2446EE34EA2E47276113C55330CAA6A55"
-                url="jdbc:db2://10.134.59.18.nip.io:50000/vresults" user="db2inst1">
+                url="jdbc:db2://10.134.59.18.nip.io:50000/vresults"
+                useSsl="false" user="db2inst1">
                 <dpsSsl useSsl="false"/>
                 <stubSettings maxProcCallCount="10000"
                     maxResultSetRowCount="10000" maxRowCount="10000"
@@ -33,7 +34,7 @@
         <automationServer enabled="true" hostname="10.134.59.19.nip.io"
             port="443" projectId="44770950" projectName="Calculator"
             publishResults="false" trustSource="TRUST_ALL"
-            trustStorePassword="#com.ghc.1!2836" trustStorePath=""/>
+            trustStorePassword="#com.ghc.1!7ecb" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
         permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
