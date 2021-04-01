@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266277155"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:-1815510594:-332410441"
+    selfDescribing="SOLR Index Status" type="parameterized_url_schema"
+    updatedTimestamp="1617266277155" updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="SOLR Index Status">
+            <url templateName="/search/admin/resources/index/build/status">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="search"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="admin"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="resources"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="index"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="build"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="status"
+                    parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="" parameterName="jobStatusId"
+                    queryName="jobStatusId" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

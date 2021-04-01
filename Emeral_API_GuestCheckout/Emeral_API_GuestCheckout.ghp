@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20210223_0216" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 1 April 2021" creationVersion="10.1.3"
+    domain="default" extDocPrefix="" name="Emeral_API_GuestCheckout"
+    owner="STUART.WALKER" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000178-8c91-2493-0000-e6d2513cea00">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="addressId" value=""/>
+        <environmentVariable evdescription="" key="addressNickName" value=""/>
+        <environmentVariable evdescription="" key="b2baddressId" value=""/>
+        <environmentVariable evdescription="" key="b2baddressNickName" value=""/>
+        <environmentVariable evdescription="" key="b2bcategoryId" value=""/>
+        <environmentVariable evdescription="" key="b2bcontractId" value=""/>
+        <environmentVariable evdescription="" key="b2bitemId" value=""/>
+        <environmentVariable evdescription="" key="b2borderId" value=""/>
+        <environmentVariable evdescription="" key="b2bpassword" value=""/>
+        <environmentVariable evdescription="" key="b2bproductName" value=""/>
+        <environmentVariable evdescription="" key="b2bProductNumber" value=""/>
+        <environmentVariable evdescription="" key="b2bProductSKU" value=""/>
+        <environmentVariable evdescription="" key="b2bstoreId" value=""/>
+        <environmentVariable evdescription="" key="b2busername" value=""/>
+        <environmentVariable evdescription="" key="b2c_stloc_geonode" value=""/>
+        <environmentVariable evdescription="" key="b2c_stloc_storeId" value=""/>
+        <environmentVariable evdescription="" key="b2c_wishlist_extId" value=""/>
+        <environmentVariable evdescription="" key="b2caddressId" value=""/>
+        <environmentVariable evdescription="" key="b2cFemaleSegment" value=""/>
+        <environmentVariable evdescription="" key="b2cMaleSegment" value=""/>
+        <environmentVariable evdescription="" key="b2cMaleUserId" value=""/>
+        <environmentVariable evdescription="" key="b2cproductSku" value=""/>
+        <environmentVariable evdescription="" key="baseURL" value=""/>
+        <environmentVariable evdescription="" key="baseUrl_HOST" value=""/>
+        <environmentVariable evdescription="" key="baseUrl_PATH" value=""/>
+        <environmentVariable evdescription="" key="baseUrl_PORT" value=""/>
+        <environmentVariable evdescription="" key="bda-hostname" value=""/>
+        <environmentVariable evdescription="" key="catalogId" value=""/>
+        <environmentVariable evdescription="" key="categoryId" value=""/>
+        <environmentVariable evdescription="" key="CollVar" value=""/>
+        <environmentVariable evdescription="" key="contractId" value=""/>
+        <environmentVariable evdescription="" key="itemId" value=""/>
+        <environmentVariable evdescription="" key="memberId" value=""/>
+        <environmentVariable evdescription="" key="orderId" value=""/>
+        <environmentVariable evdescription="" key="password" value=""/>
+        <environmentVariable evdescription="" key="piAmount" value=""/>
+        <environmentVariable evdescription="" key="port-number" value=""/>
+        <environmentVariable evdescription="" key="productName" value=""/>
+        <environmentVariable evdescription="" key="productSku" value=""/>
+        <environmentVariable evdescription="" key="storeId" value=""/>
+        <environmentVariable evdescription="" key="url" value=""/>
+        <environmentVariable evdescription="" key="URL_HOST" value=""/>
+        <environmentVariable evdescription="" key="username" value=""/>
+        <environmentVariable evdescription="" key="wcspassword" value=""/>
+        <environmentVariable evdescription="" key="wcsusername" value=""/>
+        <environmentVariable evdescription="" key="WCToken" value=""/>
+        <environmentVariable evdescription="" key="WCTrustedToken" value=""/>
+    </rootEnvironmentConfig>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!5da6" dpsUser="" driverClass=""
+                password="#com.ghc.1!6db7" schema="" url=""
+                useSsl="false" user="">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!e0be"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern=""
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!2a3c" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="Ekca1HttlIsCuz+5UctxZ1mamQlwaHAsx4PJfoZwDn4=$0CDWbH5WcSUHXUuQxi4eESexJBcaaXueG2cD9xuxHHQ="/>
+</_c>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266277163"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:-279053664:-332410441"
+    selfDescribing="Base Product" type="parameterized_url_schema"
+    updatedTimestamp="1617266277163" updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="Base Product">
+            <url templateName="/api/v1/base_product">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="api"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="v1"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true"
+                    literal="base_product" parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="json" parameterName="_format"
+                    queryName="_format" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

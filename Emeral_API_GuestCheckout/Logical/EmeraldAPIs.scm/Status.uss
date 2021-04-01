@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266277153"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:-1808614382:-332410441"
+    selfDescribing="Status" type="parameterized_url_schema"
+    updatedTimestamp="1617266277153" updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="Status">
+            <url templateName="/get">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="get"
+                    parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="bar1" parameterName="foo1"
+                    queryName="foo1" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="bar2" parameterName="foo2"
+                    queryName="foo2" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

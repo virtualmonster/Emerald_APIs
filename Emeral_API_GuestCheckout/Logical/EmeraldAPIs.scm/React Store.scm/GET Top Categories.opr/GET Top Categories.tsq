@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266275625"
+    createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
+    type="test_resource" updatedTimestamp="1617266887344"
+    updatedUser="STUART.WALKER" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="d67d2c9:1788c912586:-7897"
+                selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
+                type="send_request_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="&quot;Text&quot; on resource &quot;/search/resources/api/v2/categories?contractId=%%contractId%%&amp;depthAndLimit=11,11&amp;storeId=%%storeId%%&amp;langId=-1&quot; using schema &quot;Text&quot; via &quot;bda-hostname:port-number&quot;" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+                    <headerMessage meTy="Message" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="MessageType" type="7"
+                            value="http.text.message.type" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Method" type="7"
+                            value="GET" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction exp="GET" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="URL" type="7"
+                            value="/search/resources/api/v2/categories?contractId=%%contractId%%&amp;depthAndLimit=11,11&amp;storeId=%%storeId%%&amp;langId=-1" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="/search/resources/api/v2/categories?contractId=%%contractId%%&amp;depthAndLimit=11,11&amp;storeId=%%storeId%%&amp;langId=-1" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c meTy="String" name="Version" type="7"
+                                value="" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Message" name="httpHeaders"
+                                type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                type="8" value="true" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction exp="true" type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                        </_c>
+                    </headerMessage>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c name="text" sch="Text" type="7" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+            <editableResource id="d67d2c9:1788c912586:-7893"
+                selfDescribing="Receive and validate a response to the request you have sent."
+                type="receive_reply_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
+                    sendRequestID="d67d2c9:1788c912586:-7897"
+                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+                    <headerMessage assocdefid="Http Receive Reply"
+                        meTy="Message" name="" sch="Http Receive Reply"
+                        type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="1">
+                                <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="StatusCode"
+                            sch="Http Receive Reply" type="7"
+                            value="200" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction exp="200" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="ReasonPhrase"
+                            sch="Http Receive Reply" type="7" value="OK" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction exp="OK" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Message" name="httpDetails"
+                            sch="Http Receive Reply" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c meTy="String" name="Version"
+                                sch="Http Receive Reply" type="7"
+                                value="HTTP/1.1" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="HTTP/1.1" type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Message" name="httpHeaders"
+                                sch="Http Receive Reply" type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                                <_c meTy="String" name="Server"
+                                    sch="Http Receive Reply" type="7"
+                                    value="nginx/1.19.3" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="nginx/1.19.3" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Date"
+                                    sch="Http Receive Reply" type="7"
+                                    value="Thu, 01 Apr 2021 08:46:39 GMT" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="Thu, 01 Apr 2021 08:46:39 GMT" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Content-Type"
+                                    sch="Http Receive Reply" type="7"
+                                    value="application/json" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="application/json" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="Transfer-Encoding"
+                                    sch="Http Receive Reply" type="7"
+                                    value="chunked" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="chunked" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Connection"
+                                    sch="Http Receive Reply" type="7"
+                                    value="keep-alive" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="keep-alive" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="x-request-id"
+                                    sch="Http Receive Reply" type="7"
+                                    value="6946108006913028096" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="6946108006913028096" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="content-language"
+                                    sch="Http Receive Reply" type="7"
+                                    value="en-US" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="en-US" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="x-envoy-upstream-service-time"
+                                    sch="Http Receive Reply" type="7"
+                                    value="262" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="262" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Cache-Control"
+                                    sch="Http Receive Reply" type="7"
+                                    value="no-store" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="no-store" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                            </_c>
+                        </_c>
+                        <_c meTy="String" name="MessageType"
+                            sch="Http Receive Reply" type="7"
+                            value="http.text.message.type" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Date-Time" name="rcvdTimestamp"
+                            sch="Http Receive Reply" type="11"
+                            value="09:47:24.967 2021/04/01" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="09:47:24.967 2021/04/01" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </headerMessage>
+                    <subconfig MessageType="http.text.message.type"
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="1">
+                                <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c coreTypeInt="7" coreTypeName="String"
+                            name="text"
+                            nodeFormatter="JSON.nodeformatter"
+                            sch="Text" type="12" version="1.2">
+                            <fieldExpander
+                                fieldExpanderID="JSON.fieldexpander"
+                                fieldSchema="JSON" fieldSchemaRoot="Object"/>
+                            <contentTree>{"contents":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/dep_livingroom.jpg","seo":{"href":"/living-room"},"name":"Living Room","identifier":"LivingRoom","storeID":"11","sequence":"1.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg","seo":{"href":"/furniture"},"name":"Furniture","identifier":"LivingRoomFurniture","storeID":"11","sequence":"1.0","id":"10502","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10502"}},"description":"Beautiful chairs, couches and tables that fit any decor"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg","seo":{"href":"/lighting-livingroomlighting"},"name":"Lighting","identifier":"LivingRoomLighting","storeID":"11","sequence":"2.0","id":"10503","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10503"}},"description":"Illuminate your living room with a variety of pendant lights and chandeliers"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg","seo":{"href":"/decoration"},"name":"Decoration","identifier":"Decoration","storeID":"11","sequence":"3.0","id":"10504","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10504"}},"description":"Versatile pieces to accent all your surfaces and walls"}],"id":"10501","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10502","href: /search/resources/api/v2/categories?storeId=11&amp;id=10503","href: /search/resources/api/v2/categories?storeId=11&amp;id=10504"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"}},"description":"Bring your living space together with comfort and style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/dep_bathroom.jpg","seo":{"href":"/bath"},"name":"Bath","identifier":"Bath","storeID":"11","sequence":"2.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg","seo":{"href":"/lighting"},"name":"Lighting","identifier":"BathLighting","storeID":"11","sequence":"1.0","id":"10510","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10510"}},"description":"Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg","seo":{"href":"/fixtures"},"name":"Fixtures","identifier":"Fixtures","storeID":"11","sequence":"2.0","id":"10511","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10511"}},"description":"Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg","seo":{"href":"/accessories"},"name":"Accessories","identifier":"Accessories","storeID":"11","sequence":"3.0","id":"10512","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10512"}},"description":"Accent your bath with stylish accessories and makeup mirrors"}],"id":"10509","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10510","href: /search/resources/api/v2/categories?storeId=11&amp;id=10511","href: /search/resources/api/v2/categories?storeId=11&amp;id=10512"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"}},"description":"Modernize your bath space with a variety of vanity fixtures and lighting options"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dep_bedroom.jpg","seo":{"href":"/bedroom"},"name":"Bedroom","identifier":"Bedroom","storeID":"11","sequence":"3.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg","seo":{"href":"/beds"},"name":"Beds","identifier":"Beds","storeID":"11","sequence":"1.0","id":"10514","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10514"}},"description":"Functional and space-saving beds to extend any sleeping space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg","seo":{"href":"/dressers"},"name":"Dressers","identifier":"Dressers","storeID":"11","sequence":"2.0","id":"10515","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10515"}},"description":"Highly-functional dressers that maximize both storage space and function"}],"id":"10513","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10514","href: /search/resources/api/v2/categories?storeId=11&amp;id=10515"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"}},"description":"Furnish your bedrooms in style and make them your own"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/dep_diningroom.jpg","seo":{"href":"/dining-room"},"name":"Dining Room","identifier":"DiningRoom","storeID":"11","sequence":"4.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg","seo":{"href":"/tables"},"name":"Tables","identifier":"DiningTables","storeID":"11","sequence":"1.0","id":"10506","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10506"}},"description":"Find the perfect dining table for serving your guests in comfort and style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg","seo":{"href":"/chairs"},"name":"Chairs","identifier":"DiningChairs","storeID":"11","sequence":"2.0","id":"10507","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10507"}},"description":"Sturdy seating that matches any dining room decor"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg","seo":{"href":"/buffets"},"name":"Buffets","identifier":"Buffets","storeID":"11","sequence":"3.0","id":"10508","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10508"}},"description":"Add fully-functional drawer, cabinet, and counter space to any dining room in style"}],"id":"10505","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10506","href: /search/resources/api/v2/categories?storeId=11&amp;id=10507","href: /search/resources/api/v2/categories?storeId=11&amp;id=10508"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"}},"description":"Entertain your guests with dining room furniture and decor that fits any space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/dep_kitchen.jpg","seo":{"href":"/kitchen"},"name":"Kitchen","identifier":"Kitchen","storeID":"11","sequence":"5.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg","seo":{"href":"/cabinets"},"name":"Cabinets","identifier":"Cabinets","storeID":"11","sequence":"1.0","id":"10517","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10517"}},"description":"Versatile cabinetry and shelving give your kitchen storage space in style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg","seo":{"href":"/countertops"},"name":"Countertops","identifier":"Countertops","storeID":"11","sequence":"2.0","id":"10518","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10518"}},"description":"Heat, scratch, stain, and water resistant countertops for every kitchen"}],"id":"10516","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10517","href: /search/resources/api/v2/categories?storeId=11&amp;id=10518"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"}},"description":"Create a kitchen that suits your needs and fits your lifestyle"}]}<defaultActions>
+                                    <defaultMessageActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultMessageActions>
+                                    <defaultScalarActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultScalarActions>
+                                </defaultActions>
+                                <updates>
+                                    <updateField path="/text/Object">
+                                    <_c assocdefid="Object"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/links/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/links/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/links/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/0/links/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/links/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/links/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/links/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/1/links/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/links/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/links/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/2/links/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3">
+                                    <_c name="3"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/links/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/links/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/links/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/3/links/children/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4">
+                                    <_c name="4"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/links/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/links/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/contents/4/links/children/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                </updates>
+                            </contentTree>
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction type="7"/>
+                                </fieldAction>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

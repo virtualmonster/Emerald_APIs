@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266272563"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:1374399086:1544155186"
+    selfDescribing="Emerald Endpoint - https %%bda-hostname%%"
+    type="http_transport" updatedTimestamp="1617269546572"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="Emerald Endpoint" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!afd7" credPreemptive="false"
+            credType="0" credUser="" httpHost="%%bda-hostname%%"
+            httpNtlmDomain="" httpPort="%%port-number%%"
+            httpProxyHost="" httpProxyPassword="#com.ghc.1!43b4"
+            httpProxyPort="" httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            recType="PROXY" useSsl="true" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!f00f"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

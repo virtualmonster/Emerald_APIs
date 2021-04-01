@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266277144"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:-1699074475:-332410441"
+    selfDescribing="Price Calculation Index Build (AuroraB2BESite)"
+    type="parameterized_url_schema" updatedTimestamp="1617266277144"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="Price Calculation Index Build (AuroraB2BESite)">
+            <url templateName="/wcs/resources/admin/index/dataImport/build">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="wcs"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="resources"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="admin"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="index"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="dataImport"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="build"
+                    parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="auth.price"
+                    parameterName="connectorId" queryName="connectorId" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="Price" parameterName="indexSubType"
+                    queryName="indexSubType" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="2" parameterName="storeId"
+                    queryName="storeId" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

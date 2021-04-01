@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266275692"
+    createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7874"
+    type="test_resource" updatedTimestamp="1617270622396"
+    updatedUser="STUART.WALKER" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <testTree>
+            <editableResource id="d67d2c9:1788c912586:-7872"
+                selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
+                type="send_request_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="&quot;Text&quot; on resource &quot;/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1&quot; using schema &quot;Text&quot; via &quot;Emerald API Endpoint&quot;" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+                    <headerMessage meTy="Message" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="MessageType" type="7"
+                            value="http.text.message.type" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Method" type="7"
+                            value="GET" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction exp="GET" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="URL" type="7"
+                            value="/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction
+                                    exp="/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c meTy="String" name="Version" type="7"
+                                value="" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Message" name="httpHeaders"
+                                type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                                <_c meTy="String" name="WCTrustedToken"
+                                    type="7" value="%%WCTrustedToken%%" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="%%WCTrustedToken%%" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="WCToken"
+                                    type="7" value="%%WCToken%%" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="%%WCToken%%" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                            </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                type="8" value="true" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction exp="true" type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                        </_c>
+                    </headerMessage>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction enabled="false" type="1">
+                                <fieldAction anyOrder="false"
+                                    enabled="false" ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c name="text" sch="Text" type="7" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+            <editableResource id="d67d2c9:1788c912586:-786e"
+                selfDescribing="Receive and validate a response to the request you have sent."
+                type="receive_reply_action" version="1.1">
+                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <resourceConfig description="" formatter="HTTP_Message"
+                    name="-NO MESSAGE DEFINED-"
+                    sendRequestID="d67d2c9:1788c912586:-7872"
+                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756">
+                    <headerMessage assocdefid="Http Receive Reply"
+                        meTy="Message" name="" sch="Http Receive Reply"
+                        type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="1">
+                                <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="StatusCode"
+                            sch="Http Receive Reply" type="7"
+                            value="200" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction exp="200" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="ReasonPhrase"
+                            sch="Http Receive Reply" type="7" value="OK" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction exp="OK" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Message" name="httpDetails"
+                            sch="Http Receive Reply" type="12" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                            <_c meTy="String" name="Version"
+                                sch="Http Receive Reply" type="7"
+                                value="HTTP/1.1" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="HTTP/1.1" type="0"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                            </_c>
+                            <_c meTy="Message" name="httpHeaders"
+                                sch="Http Receive Reply" type="12" version="1.2">
+                                <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                </fieldActionGroup>
+                                <_c meTy="String" name="Server"
+                                    sch="Http Receive Reply" type="7"
+                                    value="nginx/1.19.3" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="nginx/1.19.3" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Date"
+                                    sch="Http Receive Reply" type="7"
+                                    value="Thu, 01 Apr 2021 09:49:13 GMT" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="Thu, 01 Apr 2021 09:49:13 GMT" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Content-Type"
+                                    sch="Http Receive Reply" type="7"
+                                    value="application/json" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="application/json" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="Transfer-Encoding"
+                                    sch="Http Receive Reply" type="7"
+                                    value="chunked" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="chunked" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Connection"
+                                    sch="Http Receive Reply" type="7"
+                                    value="keep-alive" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="keep-alive" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="vary"
+                                    sch="Http Receive Reply" type="7"
+                                    value="Accept" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="Accept" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="content-language"
+                                    sch="Http Receive Reply" type="7"
+                                    value="en-US" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="en-US" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="set-cookie"
+                                    sch="Http Receive Reply" type="7"
+                                    value="JSESSIONID=00000BYRlx5Nv-uWLUr0vPJUCPR:-1; Path=/; HttpOnly" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="JSESSIONID=00000BYRlx5Nv-uWLUr0vPJUCPR:-1; Path=/; HttpOnly" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="expires"
+                                    sch="Http Receive Reply" type="7"
+                                    value="Thu, 01 Dec 1994 16:00:00 GMT" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="Thu, 01 Dec 1994 16:00:00 GMT" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="cache-control"
+                                    sch="Http Receive Reply" type="7"
+                                    value="no-cache=&quot;set-cookie, set-cookie2&quot;" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="no-cache=&quot;set-cookie, set-cookie2&quot;" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String"
+                                    name="x-envoy-upstream-service-time"
+                                    sch="Http Receive Reply" type="7"
+                                    value="48" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="48" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                                <_c meTy="String" name="Cache-Control"
+                                    sch="Http Receive Reply" type="7"
+                                    value="no-store" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="no-store" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                </_c>
+                            </_c>
+                        </_c>
+                        <_c meTy="String" name="MessageType"
+                            sch="Http Receive Reply" type="7"
+                            value="http.text.message.type" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="http.text.message.type" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                        <_c meTy="Date-Time" name="rcvdTimestamp"
+                            sch="Http Receive Reply" type="11"
+                            value="10:49:13.015 2021/04/01" version="1.2">
+                            <fieldActionGroup>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="10:49:13.015 2021/04/01" type="0"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </headerMessage>
+                    <subconfig MessageType="http.text.message.type"
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756"/>
+                    <bodyMessage assocdefid="Text" name="Text"
+                        sch="Text" type="12" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="1">
+                                <fieldAction anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                        <_c coreTypeInt="7" coreTypeName="String"
+                            name="text"
+                            nodeFormatter="JSON.nodeformatter"
+                            sch="Text" type="12" version="1.2">
+                            <fieldExpander
+                                fieldExpanderID="JSON.fieldexpander"
+                                fieldSchema="JSON" fieldSchemaRoot="Object"/>
+                            <contentTree>{"totalShippingCharge":"0.00000","orderTypeCode":"ORD","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/order/36511373?langId=-1","orderId":"36511373","lastUpdateDate":"2021-04-01T09:49:12.835Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"M","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","buyerId":"38","grandTotalCurrency":"USD","recordSetCount":"1","paymentInstruction":[{"piId":"10019","country":"test","personTitle":"","lastName":"test","zipCode":"401234","city":"test","postalCode":"401234","phone2":"","phone2Publish":"true","phone1Publish":"true","piDescription":"Cash on delivery","payMethodId":"COD","phone1":"","xpaym_tokenization":"false","email2":"","email1":"test@test.com","xpaym_policyId":"14506","fax2":"","state":"test","fax1":"","piAmount":"724.99000","billing_address_id":"3074457357707646707","nickName":"Test","addressLine":["test","test",""],"piLanguage":"-1","stateOrProvinceName":"test","piStatus":"Success","firstName":"test","piCurrency":"USD","protocolData":[{"name":"billing_address_id","value":"3074457357707646707"},{"name":"billto_zipcode","value":"401234"},{"name":"billto_address1","value":"test"},{"name":"billto_country","value":"test"},{"name":"billto_lastname","value":"test"},{"name":"billto_stateprovince","value":"test"},{"name":"billto_city","value":"test"},{"name":"billto_firstname","value":"test"},{"name":"payment_method","value":"COD"}],"middleName":"","xpaym_punchoutPayment":"false"}],"x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","placedDate":"2021-04-01T09:49:12.830Z","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","orderItem":[{"zipCode":"401234","personTitle":"","country":"test","unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:49:12.830Z","postalCode":"401234","phone2":"","availableDate":"2021-04-01T09:49:12.780Z","phone2Publish":"true","salesTax":"0.00000","phone1Publish":"true","phone1":"","addressId":"3074457357707646707","correlationGroup":"10033","email2":"","email1":"test@test.com","fax2":"","shippingCharge":"0.00000","fax1":"","state":"test","orderItemPrice":"749.99000","shipModeLanguage":"-1","unitPrice":"749.99000","productId":"14020","shipModeCode":"Mail","shipModeDescription":"Mail","nickName":"Test","fulfillmentCenterName":"Emerald","firstName":"test","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","usage":"Discount","description":"Save $25 on all orders over $200 USD","currency":"USD","language":"-1"}],"totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Allocated","lastName":"test","city":"test","expectedShipDate":"2021-04-02T09:49:13.038Z","xitem_isPersonalAddressesAllowedForShipping":"true","shippingTax":"0.00000","orderItemStatus":"M","offerID":"4000000000000008039","currency":"USD","createDate":"2021-04-01T09:49:10.886Z","salesTaxCurrency":"USD","quantity":"1.0","fulfillmentCenterId":"13001","orderItemId":"10033","shipModeId":"14001","orderItemFulfillmentStatus":"Unreleased","isExpedited":"false","addressLine":["test","test",""],"shippingTaxCurrency":"USD","stateOrProvinceName":"test","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","middleName":"","partNumber":"LR-FNTR-0001-0002"}],"grandTotal":"724.99000","storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"order","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","prepareIndicator":"true","totalShippingTaxCurrency":"USD","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","xadju_calUsageId":"-1","description":"Save $25 on all orders over $200 USD","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
+                                    <defaultMessageActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultMessageActions>
+                                    <defaultScalarActions>
+                                    <fieldActionGroup>
+                                    <fieldAction type="1">
+                                    <fieldAction type="0"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                    </fieldAction>
+                                    <fieldAction type="1">
+                                    <fieldAction type="6"
+                                    typeActionAllType="true" typeActionMetaType="false"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </defaultScalarActions>
+                                </defaultActions>
+                                <updates>
+                                    <updateField path="/text/Object">
+                                    <_c assocdefid="Object"/>
+                                    </updateField>
+                                    <setAction index="2"
+                                    path="/text/Object/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/order/36511373?langId=-1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="3"
+                                    path="/text/Object/orderId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="36511373" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="4"
+                                    path="/text/Object/lastUpdateDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-01T09:49:12.835Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/channel/userData"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction type="8"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="9"
+                                    path="/text/Object/buyerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="38" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/paymentInstruction">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/paymentInstruction/0/piId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="10019" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="21"
+                                    path="/text/Object/paymentInstruction/0/billing_address_id"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="3074457357707646707" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/paymentInstruction/0/addressLine">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/addressLine/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/addressLine/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/addressLine/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <setAction index="29"
+                                    path="/text/Object/paymentInstruction/0/protocolData"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/paymentInstruction/0/protocolData/0/value"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="3074457357707646707" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/3">
+                                    <_c name="3"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/4">
+                                    <_c name="4"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/5">
+                                    <_c name="5"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/6">
+                                    <_c name="6"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/7">
+                                    <_c name="7"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/paymentInstruction/0/protocolData/8">
+                                    <_c name="8"/>
+                                    </updateField>
+                                    <setAction index="18"
+                                    path="/text/Object/placedDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-01T09:49:12.830Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/orderItem/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/orderItem/0/lastUpdateDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-01T09:49:12.830Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="8"
+                                    path="/text/Object/orderItem/0/availableDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-01T09:49:12.780Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="13"
+                                    path="/text/Object/orderItem/0/addressId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="3074457357707646707" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="14"
+                                    path="/text/Object/orderItem/0/correlationGroup"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="10033" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/adjustment">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/orderItem/0/adjustment/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <setAction index="35"
+                                    path="/text/Object/orderItem/0/expectedShipDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-02T09:49:13.038Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="41"
+                                    path="/text/Object/orderItem/0/createDate"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="2021-04-01T09:49:10.886Z" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="45"
+                                    path="/text/Object/orderItem/0/orderItemId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="10033" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/addressLine">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/orderItem/0/addressLine/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/orderItem/0/addressLine/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/orderItem/0/addressLine/2">
+                                    <_c name="2"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/adjustment">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <updateField path="/text/Object/adjustment/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                </updates>
+                            </contentTree>
+                            <fieldActionGroup>
+                                <fieldAction type="1">
+                                    <fieldAction type="7"/>
+                                </fieldAction>
+                                <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="7"/>
+                                </fieldAction>
+                            </fieldActionGroup>
+                        </_c>
+                    </bodyMessage>
+                </resourceConfig>
+            </editableResource>
+        </testTree>
+        <tagDataStore inputMode="SELECT" outputMode="SELECT">
+            <tag defaultValue="" description="" name="WCTrustedToken">
+                <tagProps>
+                    <prop key="interfaceInput" value="true"/>
+                    <prop key="interfaceOutput" value="true"/>
+                    <prop key="overrideEnvironment" value="true"/>
+                    <prop key="scopeExecution" value="true"/>
+                </tagProps>
+            </tag>
+            <tag defaultValue="" description="" name="WCToken">
+                <tagProps>
+                    <prop key="interfaceInput" value="true"/>
+                    <prop key="interfaceOutput" value="true"/>
+                    <prop key="overrideEnvironment" value="true"/>
+                    <prop key="scopeExecution" value="true"/>
+                </tagProps>
+            </tag>
+        </tagDataStore>
+        <testprops messageClearance="false"/>
+    </resourceConfig>
+</editableResource>

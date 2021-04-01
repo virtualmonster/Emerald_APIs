@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266275589"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:-1718840252:-807255066"
+    type="operation_resource" updatedTimestamp="1617266275589"
+    updatedUser="STUART.WALKER" version="1.0">
+    <documentation>
+        <description externalID="9db2c4ce-c9dd-4b9b-9e7a-b2e8a4d7b796" value="File Location:D:\Documents\## Customers\Commerce Team\Postman Collections\data export\Backup.postman_dump.json&#xd;&#xa;null"/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="96,17,70" dependencies=""
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="d67d2c9:1788c912586:-7ec5:138572141:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="d67d2c9:1788c912586:-7ec5:138572141:408339756"
+        maxTime="0" mepEndUsed="true" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="d67d2c9:1788c912586:-7ec5:138572141:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="PUT" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="PUT" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/wcs/resources/store/%%storeId%%/cart/@self/precheckout?langId=-1" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/wcs/resources/store/%%storeId%%/cart/@self/precheckout?langId=-1" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c meTy="String" name="WCTrustedToken" type="7"
+                        value="%%WCTrustedToken%%" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="%%WCTrustedToken%%" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                    <_c meTy="String" name="WCToken" type="7"
+                        value="%%WCToken%%" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="%%WCToken%%" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="PUT"
+                URL="/wcs/resources/store/%%storeId%%/cart/@self/precheckout?langId=-1"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="true" filterMethod="true" filterResourcePath="true">
+                <filterHeadersList>
+                    <header disabled="true" name="WCTrustedToken"
+                        type="7" value="%%WCTrustedToken%%"/>
+                    <header disabled="true" name="WCToken" type="7" value="%%WCToken%%"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

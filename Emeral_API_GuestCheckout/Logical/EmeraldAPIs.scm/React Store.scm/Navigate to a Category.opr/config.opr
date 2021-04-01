@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266275603"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:1848145417:-807255066"
+    type="operation_resource" updatedTimestamp="1617266275603"
+    updatedUser="STUART.WALKER" version="1.0">
+    <documentation>
+        <description externalID="d75230fe-1b0e-4623-9b65-5130a5551615" value="File Location:D:\Documents\## Customers\Commerce Team\Postman Collections\data export\Backup.postman_dump.json&#xd;&#xa;null"/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="239,193,0" dependencies=""
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="d67d2c9:1788c912586:-7ec5:1390432723:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="d67d2c9:1788c912586:-7ec5:1390432723:408339756"
+        maxTime="0" mepEndUsed="true" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/search/resources/api/v2/products?categoryId=%%categoryId%%&amp;contractId=%%contractId%%&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=%%storeId%%&amp;langId=-1" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/search/resources/api/v2/products?categoryId=%%categoryId%%&amp;contractId=%%contractId%%&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=%%storeId%%&amp;langId=-1" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/search/resources/api/v2/products?categoryId=%%categoryId%%&amp;contractId=%%contractId%%&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=%%storeId%%&amp;langId=-1"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="false" filterMethod="true" filterResourcePath="true"/>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

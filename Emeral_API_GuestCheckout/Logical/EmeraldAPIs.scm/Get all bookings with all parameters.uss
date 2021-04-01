@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266277187"
+    createdUser="STUART.WALKER"
+    id="d67d2c9:1788c912586:-7ec5:14970950:-332410441"
+    selfDescribing="Get all bookings with all parameters"
+    type="parameterized_url_schema" updatedTimestamp="1617266277187"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="Get all bookings with all parameters">
+            <url templateName="/booking">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="booking"
+                    parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="sally" parameterName="firstname"
+                    queryName="firstname" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="brown" parameterName="lastname"
+                    queryName="lastname" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="2017-11-11" parameterName="checkin"
+                    queryName="checkin" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="2017-11-15" parameterName="checkout"
+                    queryName="checkout" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

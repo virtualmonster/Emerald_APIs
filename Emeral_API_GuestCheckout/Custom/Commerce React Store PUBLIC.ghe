@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617266272444"
+    createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7de1"
+    type="environment_resource" updatedTimestamp="1617269976013"
+    updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="addressId" value="9652022076"/>
+        <environmentVariable evdescription="" key="baseUrl_HOST" value="LP1-EU-51627856"/>
+        <environmentVariable evdescription="" key="baseUrl_PATH" value="/RTCP/examples/phonebook/api"/>
+        <environmentVariable evdescription="" key="baseUrl_PORT" value="7443"/>
+        <environmentVariable evdescription="" key="bda-hostname" value="commerce-preview.sbx0049.play.products.pnpsofy.com"/>
+        <environmentVariable evdescription="" key="catalogId" value="11501"/>
+        <environmentVariable evdescription="" key="categoryId" value="10502"/>
+        <environmentVariable evdescription="" key="contractId" value="-11005"/>
+        <environmentVariable evdescription="" key="itemId" value="14020"/>
+        <environmentVariable evdescription="" key="orderId" value="24122887655"/>
+        <environmentVariable evdescription="" key="piAmount" value="498.75000"/>
+        <environmentVariable evdescription="" key="port-number" value="443"/>
+        <environmentVariable evdescription="" key="productSku" value="LR-FNTR-0001-0002"/>
+        <environmentVariable evdescription="" key="storeId" value="11"/>
+        <environmentVariable evdescription="" key="WCToken" value=""/>
+        <environmentVariable evdescription="" key="WCTrustedToken" value=""/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="d67d2c9:1788c912586:-7ec5:1390432723:408339756" evPhysicalItemId="d67d2c9:1788c912586:-7ec5:1374399086:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>
