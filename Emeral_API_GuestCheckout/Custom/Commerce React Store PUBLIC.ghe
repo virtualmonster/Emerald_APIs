@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266272444"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7de1"
-    type="environment_resource" updatedTimestamp="1617269976013"
+    type="environment_resource" updatedTimestamp="1617290590547"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
@@ -22,6 +22,7 @@
         <environmentVariable evdescription="" key="WCToken" value=""/>
         <environmentVariable evdescription="" key="WCTrustedToken" value=""/>
         <evbindings>
+            <evbinding evLogicalItemId="6b10b499:1788e004ea0:-7a7b" evPhysicalItemId="d67d2c9:1788c912586:-7ec5:1374399086:1544155186"/>
             <evbinding
                 evLogicalItemId="d67d2c9:1788c912586:-7ec5:1390432723:408339756" evPhysicalItemId="d67d2c9:1788c912586:-7ec5:1374399086:1544155186"/>
         </evbindings>

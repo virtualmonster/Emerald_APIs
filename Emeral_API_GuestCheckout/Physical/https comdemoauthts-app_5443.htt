@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1617290661872"
+    createdUser="STUART.WALKER" id="6b10b499:1788e004ea0:-7a04"
+    selfDescribing="https comdemoauthts-app:5443" type="http_transport"
+    updatedTimestamp="1617290709735" updatedUser="STUART.WALKER" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain=""
+            credPassword="#com.ghc.1!1dd3" credPreemptive="false"
+            credType="0" credUser="" httpHost="comdemoauthts-app"
+            httpNtlmDomain="" httpPort="5443" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!18e0" httpProxyPort=""
+            httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            recType="PROXY" useSsl="true" version="4">
+            <kerberos Anon="false" Conf="false" Custom="true"
+                Enabled="false" Integ="false" KDC="" Loc=""
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!dbb0"
+                Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+            <serverAuthentication>
+                <authenticationConfig enabled="false" realm="" type="1"/>
+                <authenticationConfig algorithm="" authParams=""
+                    domain="" enabled="false" nonce="false" opaque=""
+                    qop="" realm="" stale="" type="2"/>
+                <authenticationConfig enabled="false" type="3"/>
+                <authenticationConfig enabled="false" type="5"/>
+            </serverAuthentication>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

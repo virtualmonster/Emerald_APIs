@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275692"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7874"
-    type="test_resource" updatedTimestamp="1617290365393"
+    type="test_resource" updatedTimestamp="1617291008440"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -11,7 +11,7 @@
                 type="send_request_action" version="1.1">
                 <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
-                    name="&quot;Text&quot; on resource &quot;/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1&quot; using schema &quot;Text&quot; via &quot;Emerald API Endpoint&quot;" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+                    name="&quot;Text&quot; on resource &quot;/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1&quot; using schema &quot;Text&quot; via &quot;Emerald WCS API Endpoint&quot;" transport="6b10b499:1788e004ea0:-7a7b">
                     <headerMessage meTy="Message" type="12" version="1.2">
                         <fieldActionGroup>
                             <fieldAction enabled="false" type="1">
@@ -320,7 +320,10 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                        URL="" _version="1.1" allowSubPath="false"
+                        consumerType="Participate" filterHeaders="false"
+                        filterMethod="false" filterResourcePath="false"
+                        formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
