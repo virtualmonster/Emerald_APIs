@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275456"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7902"
-    type="test_resource" updatedTimestamp="1617295224038"
+    type="test_resource" updatedTimestamp="1617296246322"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -374,6 +374,14 @@
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self/usable_payment_info?langId=-1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="1"
                                     path="/text/Object/orderId"
                                     replaceActionType="0" replaceOuterType="1">

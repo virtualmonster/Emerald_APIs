@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275519"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78db"
-    type="test_resource" updatedTimestamp="1617290873921"
+    type="test_resource" updatedTimestamp="1617296179101"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -137,7 +137,7 @@
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-78d9"
-                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
+                    timeout="30000" transport="6b10b499:1788e004ea0:-7a7b">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
@@ -329,7 +329,7 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -383,6 +383,14 @@
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="2"
                                     path="/text/Object/orderId"
                                     replaceActionType="0" replaceOuterType="1">
