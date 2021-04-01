@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275563"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78be"
-    type="test_resource" updatedTimestamp="1617290853641"
+    type="test_resource" updatedTimestamp="1617295346963"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -223,7 +223,7 @@
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-78bc"
-                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756">
+                    timeout="30000" transport="6b10b499:1788e004ea0:-7a7b">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
@@ -235,8 +235,7 @@
                             </fieldAction>
                         </fieldActionGroup>
                         <_c meTy="String" name="StatusCode"
-                            sch="Http Receive Reply" type="7"
-                            value="201" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="201" type="0"/>
@@ -244,8 +243,7 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="String" name="ReasonPhrase"
-                            sch="Http Receive Reply" type="7"
-                            value="Created" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="Created" type="0"/>
@@ -262,8 +260,7 @@
                                 </fieldAction>
                             </fieldActionGroup>
                             <_c meTy="String" name="Version"
-                                sch="Http Receive Reply" type="7"
-                                value="HTTP/1.1" version="1.2">
+                                sch="Http Receive Reply" type="7" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -275,14 +272,13 @@
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="false"
+                                    <fieldAction anyOrder="true"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                 </fieldActionGroup>
-                                <_c meTy="String" name="Server"
-                                    sch="Http Receive Reply" type="7"
-                                    value="nginx/1.19.3" version="1.2">
+                                <_c meTy="String" name="server"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -290,9 +286,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Date"
-                                    sch="Http Receive Reply" type="7"
-                                    value="Thu, 01 Apr 2021 09:02:25 GMT" version="1.2">
+                                <_c meTy="String" name="date"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -300,9 +295,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Content-Type"
-                                    sch="Http Receive Reply" type="7"
-                                    value="application/json" version="1.2">
+                                <_c meTy="String" name="content-type"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -311,9 +305,8 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String"
-                                    name="Transfer-Encoding"
-                                    sch="Http Receive Reply" type="7"
-                                    value="chunked" version="1.2">
+                                    name="transfer-encoding"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -321,9 +314,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Connection"
-                                    sch="Http Receive Reply" type="7"
-                                    value="keep-alive" version="1.2">
+                                <_c meTy="String" name="connection"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -332,8 +324,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String" name="vary"
-                                    sch="Http Receive Reply" type="7"
-                                    value="Accept" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -343,8 +334,7 @@
                                 </_c>
                                 <_c meTy="String"
                                     name="content-language"
-                                    sch="Http Receive Reply" type="7"
-                                    value="en-US" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -353,8 +343,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String" name="set-cookie"
-                                    sch="Http Receive Reply" type="7"
-                                    value="JSESSIONID=0000p9VgWyLMF9rbsnN2ehQ1lcI:-1; Path=/; HttpOnly" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -363,8 +352,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String" name="expires"
-                                    sch="Http Receive Reply" type="7"
-                                    value="Thu, 01 Dec 1994 16:00:00 GMT" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -373,8 +361,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String" name="cache-control"
-                                    sch="Http Receive Reply" type="7"
-                                    value="no-cache=&quot;set-cookie, set-cookie2&quot;" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -384,8 +371,7 @@
                                 </_c>
                                 <_c meTy="String"
                                     name="x-envoy-upstream-service-time"
-                                    sch="Http Receive Reply" type="7"
-                                    value="4866" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -393,9 +379,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Cache-Control"
-                                    sch="Http Receive Reply" type="7"
-                                    value="no-store" version="1.2">
+                                <_c meTy="String" name="cache-control"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -404,10 +389,12 @@
                                     </fieldActionGroup>
                                 </_c>
                             </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                optional="true" sch="Http Receive Reply"
+                                type="8" version="1.2"/>
                         </_c>
                         <_c meTy="String" name="MessageType"
-                            sch="Http Receive Reply" type="7"
-                            value="http.text.message.type" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -416,8 +403,7 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="Date-Time" name="rcvdTimestamp"
-                            sch="Http Receive Reply" type="11"
-                            value="10:03:10.874 2021/04/01" version="1.2">
+                            sch="Http Receive Reply" type="11" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -427,10 +413,7 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        URL="" _version="1.1" allowSubPath="false"
-                        consumerType="Participate" filterHeaders="false"
-                        filterMethod="false" filterResourcePath="false"
-                        formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -519,15 +502,6 @@
                         </_c>
                     </bodyMessage>
                 </resourceConfig>
-            </editableResource>
-            <editableResource id="d67d2c9:1788c912586:-78b7"
-                selfDescribing="Choose evaluation expressions to determine test execution flow. Use predefined functions, custom plug-ins and tagged data. If the functions pass then the test will continue to execute; otherwise the test will fail."
-                type="assert_true_action" version="1.0">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-                <resourceConfig description="" enabled="false"
-                    name="var jsonData = JSON.parse(response.body.text);&#xd;&#xa;postman.setEnvironmentVariable(&quot;orderId&quot;,jsonData.orderId);"
-                    option="OTHER"
-                    script="var jsonData = JSON.parse(response.body.text);&#xd;&#xa;postman.setEnvironmentVariable(&quot;orderId&quot;,jsonData.orderId);&#xd;&#xa;" type="script:Chai"/>
             </editableResource>
         </testTree>
         <tagDataStore inputMode="SELECT" outputMode="SELECT">

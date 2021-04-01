@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275506"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78e6"
-    type="test_resource" updatedTimestamp="1617290359733"
+    type="test_resource" updatedTimestamp="1617295293525"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -160,7 +160,7 @@
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
-                                    <fieldAction anyOrder="false"
+                                    <fieldAction anyOrder="true"
                                     enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
