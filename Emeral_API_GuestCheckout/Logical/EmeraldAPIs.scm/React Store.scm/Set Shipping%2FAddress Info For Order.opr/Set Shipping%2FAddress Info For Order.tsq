@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275549"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78c8"
-    type="test_resource" updatedTimestamp="1617269837551"
+    type="test_resource" updatedTimestamp="1617290361260"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -223,7 +223,7 @@
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-78c6"
-                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756">
+                    timeout="30000" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
@@ -253,8 +253,9 @@
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
-                                <fieldAction type="1">
+                                <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                 </fieldAction>
@@ -271,8 +272,9 @@
                             <_c meTy="Message" name="httpHeaders"
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
-                                    <fieldAction type="1">
+                                    <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -413,7 +415,7 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:138572141:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>

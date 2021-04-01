@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275519"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78db"
-    type="test_resource" updatedTimestamp="1617270460226"
+    type="test_resource" updatedTimestamp="1617290364381"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -167,8 +167,9 @@
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
-                                <fieldAction type="1">
+                                <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                 </fieldAction>
@@ -185,8 +186,9 @@
                             <_c meTy="Message" name="httpHeaders"
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
-                                    <fieldAction type="1">
+                                    <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
