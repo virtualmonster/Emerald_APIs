@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275456"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7902"
-    type="test_resource" updatedTimestamp="1617296246322"
+    type="test_resource" updatedTimestamp="1618568879116"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -459,6 +459,14 @@
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
                                     exp="3074457357683992582" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="6"
+                                    path="/text/Object/usablePaymentInformation/3/paymentMethodName"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="Master Card" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <updateField path="/text/Object/usablePaymentInformation/4">
