@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275612"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78a2"
-    type="test_resource" updatedTimestamp="1617295275901"
+    type="test_resource" updatedTimestamp="1618567922636"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -605,6 +605,14 @@
                                     <updateField path="/text/Object/contents/1/attributes/0/values/0/image1path/3">
                                     <_c name="3"/>
                                     </updateField>
+                                    <setAction index="6"
+                                    path="/text/Object/contents/1/attributes/0/sequence"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="1.1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2">
                                     <_c name="2"/>
                                     </updateField>
@@ -2273,6 +2281,17 @@
                                     <updateField path="/text/Object/contents/11/attributes/1/values/0/value/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="2"
+                                    path="/text/Object/facets"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/facets">
                                     <_c assocdefid="Array"/>
                                     </updateField>

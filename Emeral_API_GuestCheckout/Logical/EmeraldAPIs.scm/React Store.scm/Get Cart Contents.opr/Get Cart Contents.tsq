@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275519"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78db"
-    type="test_resource" updatedTimestamp="1617296179101"
+    type="test_resource" updatedTimestamp="1618568072340"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -457,6 +457,14 @@
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
                                     exp="10029" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="11"
+                                    path="/text/Object/orderItem/0/offerID"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="4000000000000008039" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="16"
