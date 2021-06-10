@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275625"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
-    type="test_resource" updatedTimestamp="1617295284757"
+    type="test_resource" updatedTimestamp="1623342432346"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -362,6 +362,15 @@
                                     <updateField path="/text/Object/contents/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="6"
+                                    path="/text/Object/contents/1/children"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
