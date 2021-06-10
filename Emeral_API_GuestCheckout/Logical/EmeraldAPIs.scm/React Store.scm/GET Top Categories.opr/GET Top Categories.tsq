@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275625"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
-    type="test_resource" updatedTimestamp="1623342762784"
+    type="test_resource" updatedTimestamp="1623342907650"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -428,7 +428,8 @@
                                     path="/text/Object/contents/1/children"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
@@ -437,15 +438,57 @@
                                     <updateField path="/text/Object/contents/1/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/1/children/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/children/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1/children/1"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/children/1">
                                     <_c name="1"/>
                                     </updateField>
+                                    <setAction index="2"
+                                    path="/text/Object/contents/1/children/2"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    enabled="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/children/2">
                                     <_c name="2"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/1/links/children"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
