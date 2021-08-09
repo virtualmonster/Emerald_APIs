@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275625"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
-<<<<<<< Updated upstream
     type="test_resource" updatedTimestamp="1617295284757"
-=======
-    type="test_resource" updatedTimestamp="1628492174181"
->>>>>>> Stashed changes
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -126,8 +122,7 @@
                             </fieldAction>
                         </fieldActionGroup>
                         <_c meTy="String" name="StatusCode"
-                            sch="Http Receive Reply" type="7"
-                            value="200" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="200" type="0"/>
@@ -135,7 +130,7 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="String" name="ReasonPhrase"
-                            sch="Http Receive Reply" type="7" value="OK" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="OK" type="0"/>
@@ -145,15 +140,15 @@
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
-                                <fieldAction type="1">
+                                <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                 </fieldAction>
                             </fieldActionGroup>
                             <_c meTy="String" name="Version"
-                                sch="Http Receive Reply" type="7"
-                                value="HTTP/1.1" version="1.2">
+                                sch="Http Receive Reply" type="7" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -164,15 +159,15 @@
                             <_c meTy="Message" name="httpHeaders"
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
-                                    <fieldAction type="1">
+                                    <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="true"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                 </fieldActionGroup>
-                                <_c meTy="String" name="Server"
-                                    sch="Http Receive Reply" type="7"
-                                    value="nginx/1.19.3" version="1.2">
+                                <_c meTy="String" name="server"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -180,19 +175,17 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Date"
-                                    sch="Http Receive Reply" type="7"
-                                    value="Mon, 09 Aug 2021 06:51:35 GMT" version="1.2">
+                                <_c meTy="String" name="date"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
-                                    exp="Mon, 09 Aug 2021 06:51:35 GMT" type="0"/>
+                                    exp="Thu, 01 Apr 2021 08:46:39 GMT" type="0"/>
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Content-Type"
-                                    sch="Http Receive Reply" type="7"
-                                    value="application/json" version="1.2">
+                                <_c meTy="String" name="content-type"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -201,9 +194,8 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String"
-                                    name="Transfer-Encoding"
-                                    sch="Http Receive Reply" type="7"
-                                    value="chunked" version="1.2">
+                                    name="transfer-encoding"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -211,9 +203,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Connection"
-                                    sch="Http Receive Reply" type="7"
-                                    value="keep-alive" version="1.2">
+                                <_c meTy="String" name="connection"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -221,20 +212,18 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="traceid"
-                                    sch="Http Receive Reply" type="7"
-                                    value="6994319431969268744" version="1.2">
+                                <_c meTy="String" name="x-request-id"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
-                                    exp="6994319431969268744" type="0"/>
+                                    exp="6946108006913028096" type="0"/>
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String"
                                     name="content-language"
-                                    sch="Http Receive Reply" type="7"
-                                    value="en-US" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -244,18 +233,16 @@
                                 </_c>
                                 <_c meTy="String"
                                     name="x-envoy-upstream-service-time"
-                                    sch="Http Receive Reply" type="7"
-                                    value="199" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
-                                    exp="199" type="0"/>
+                                    exp="262" type="0"/>
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Cache-Control"
-                                    sch="Http Receive Reply" type="7"
-                                    value="no-store" version="1.2">
+                                <_c meTy="String" name="cache-control"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -264,10 +251,12 @@
                                     </fieldActionGroup>
                                 </_c>
                             </_c>
+                            <_c meTy="Boolean" name="followRedirects"
+                                optional="true" sch="Http Receive Reply"
+                                type="8" version="1.2"/>
                         </_c>
                         <_c meTy="String" name="MessageType"
-                            sch="Http Receive Reply" type="7"
-                            value="http.text.message.type" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -276,21 +265,17 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="Date-Time" name="rcvdTimestamp"
-                            sch="Http Receive Reply" type="11"
-                            value="07:51:35.456 2021/08/09" version="1.2">
+                            sch="Http Receive Reply" type="11" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
-                                    exp="07:51:35.456 2021/08/09" type="0"/>
+                                    exp="09:47:24.967 2021/04/01" type="0"/>
                                 </fieldAction>
                             </fieldActionGroup>
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        URL="" _version="1.1" allowSubPath="false"
-                        consumerType="Participate" filterHeaders="false"
-                        filterMethod="false" filterResourcePath="false"
-                        formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -307,7 +292,7 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"contents":[{"name":"Living Room","identifier":"LivingRoom","shortDescription":"Bring your living space together with comfort and style","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10501","parentCatalogGroupID":"/10501","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/dep_livingroom.jpg","seo":{"href":"/living-room"},"storeID":"11","sequence":"1.0","children":[{"name":"Furniture","identifier":"LivingRoomFurniture","shortDescription":"Beautiful chairs, couches and tables that fit any decor","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10502","parentCatalogGroupID":"/10501/10502","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg","seo":{"href":"/furniture"},"storeID":"11","sequence":"1.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg","id":"10502","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10502"}},"description":"Beautiful chairs, couches and tables that fit any decor"},{"name":"Lighting","identifier":"LivingRoomLighting","shortDescription":"Illuminate your living room with a variety of pendant lights and chandeliers","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10503","parentCatalogGroupID":"/10501/10503","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg","seo":{"href":"/lighting-livingroomlighting"},"storeID":"11","sequence":"2.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg","id":"10503","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10503"}},"description":"Illuminate your living room with a variety of pendant lights and chandeliers"},{"name":"Decoration","identifier":"Decoration","shortDescription":"Versatile pieces to accent all your surfaces and walls","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10504","parentCatalogGroupID":"/10501/10504","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg","seo":{"href":"/decoration"},"storeID":"11","sequence":"3.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg","id":"10504","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10504"}},"description":"Versatile pieces to accent all your surfaces and walls"}],"id":"10501","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=-1"},"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10503","href: /search/resources/api/v2/categories?storeId=11&amp;id=10502","href: /search/resources/api/v2/categories?storeId=11&amp;id=10504"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"}},"description":"Bring your living space together with comfort and style"},{"name":"Bath","identifier":"Bath","shortDescription":"Modernize your bath space with a variety of vanity fixtures and lighting options","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10509","parentCatalogGroupID":"/10509","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/dep_bathroom.jpg","seo":{"href":"/bath"},"storeID":"11","sequence":"2.0","children":[{"name":"Lighting","identifier":"BathLighting","shortDescription":"Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10510","parentCatalogGroupID":"/10509/10510","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg","seo":{"href":"/lighting"},"storeID":"11","sequence":"1.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg","id":"10510","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10510"}},"description":"Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"},{"name":"Fixtures","identifier":"Fixtures","shortDescription":"Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10511","parentCatalogGroupID":"/10509/10511","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg","seo":{"href":"/fixtures"},"storeID":"11","sequence":"2.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg","id":"10511","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10511"}},"description":"Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"},{"name":"Accessories","identifier":"Accessories","shortDescription":"Accent your bath with stylish accessories and makeup mirrors","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10512","parentCatalogGroupID":"/10509/10512","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg","seo":{"href":"/accessories"},"storeID":"11","sequence":"3.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg","id":"10512","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10512"}},"description":"Accent your bath with stylish accessories and makeup mirrors"}],"id":"10509","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=-1"},"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10510","href: /search/resources/api/v2/categories?storeId=11&amp;id=10512","href: /search/resources/api/v2/categories?storeId=11&amp;id=10511"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"}},"description":"Modernize your bath space with a variety of vanity fixtures and lighting options"},{"name":"Bedroom","identifier":"Bedroom","shortDescription":"Furnish your bedrooms in style and make them your own","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10513","parentCatalogGroupID":"/10513","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dep_bedroom.jpg","seo":{"href":"/bedroom"},"storeID":"11","sequence":"3.0","children":[{"name":"Beds","identifier":"Beds","shortDescription":"Functional and space-saving beds to extend any sleeping space","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10514","parentCatalogGroupID":"/10513/10514","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg","seo":{"href":"/beds"},"storeID":"11","sequence":"1.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg","id":"10514","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10514"}},"description":"Functional and space-saving beds to extend any sleeping space"},{"name":"Dressers","identifier":"Dressers","shortDescription":"Highly-functional dressers that maximize both storage space and function","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10515","parentCatalogGroupID":"/10513/10515","thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg","seo":{"href":"/dressers"},"storeID":"11","sequence":"2.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg","id":"10515","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10515"}},"description":"Highly-functional dressers that maximize both storage space and function"}],"id":"10513","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=-1"},"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10514","href: /search/resources/api/v2/categories?storeId=11&amp;id=10515"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"}},"description":"Furnish your bedrooms in style and make them your own"},{"name":"Dining Room","identifier":"DiningRoom","shortDescription":"Entertain your guests with dining room furniture and decor that fits any space","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10505","parentCatalogGroupID":"/10505","thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/dep_diningroom.jpg","seo":{"href":"/dining-room"},"storeID":"11","sequence":"4.0","children":[{"name":"Tables","identifier":"DiningTables","shortDescription":"Find the perfect dining table for serving your guests in comfort and style","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10506","parentCatalogGroupID":"/10505/10506","thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg","seo":{"href":"/tables"},"storeID":"11","sequence":"1.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg","id":"10506","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10506"}},"description":"Find the perfect dining table for serving your guests in comfort and style"},{"name":"Chairs","identifier":"DiningChairs","shortDescription":"Sturdy seating that matches any dining room decor","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10507","parentCatalogGroupID":"/10505/10507","thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg","seo":{"href":"/chairs"},"storeID":"11","sequence":"2.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg","id":"10507","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10507"}},"description":"Sturdy seating that matches any dining room decor"},{"name":"Buffets","identifier":"Buffets","shortDescription":"Add fully-functional drawer, cabinet, and counter space to any dining room in style","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10508","parentCatalogGroupID":"/10505/10508","thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg","seo":{"href":"/buffets"},"storeID":"11","sequence":"3.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg","id":"10508","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10508"}},"description":"Add fully-functional drawer, cabinet, and counter space to any dining room in style"}],"id":"10505","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=-1"},"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10507","href: /search/resources/api/v2/categories?storeId=11&amp;id=10506","href: /search/resources/api/v2/categories?storeId=11&amp;id=10508"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"}},"description":"Entertain your guests with dining room furniture and decor that fits any space"},{"name":"Kitchen","identifier":"Kitchen","shortDescription":"Create a kitchen that suits your needs and fits your lifestyle","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10516","parentCatalogGroupID":"/10516","thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/dep_kitchen.jpg","seo":{"href":"/kitchen"},"storeID":"11","sequence":"5.0","children":[{"name":"Cabinets","identifier":"Cabinets","shortDescription":"Versatile cabinetry and shelving give your kitchen storage space in style","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10517","parentCatalogGroupID":"/10516/10517","thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg","seo":{"href":"/cabinets"},"storeID":"11","sequence":"1.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg","id":"10517","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10517"}},"description":"Versatile cabinetry and shelving give your kitchen storage space in style"},{"name":"Countertops","identifier":"Countertops","shortDescription":"Heat, scratch, stain, and water resistant countertops for every kitchen","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1","uniqueID":"10518","parentCatalogGroupID":"/10516/10518","thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg","seo":{"href":"/countertops"},"storeID":"11","sequence":"2.0","fullImage":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg","id":"10518","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10518"}},"description":"Heat, scratch, stain, and water resistant countertops for every kitchen"}],"id":"10516","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=-1"},"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10518","href: /search/resources/api/v2/categories?storeId=11&amp;id=10517"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"}},"description":"Create a kitchen that suits your needs and fits your lifestyle"}]}<defaultActions>
+                            <contentTree>{"contents":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/dep_livingroom.jpg","seo":{"href":"/living-room"},"name":"Living Room","identifier":"LivingRoom","storeID":"11","sequence":"1.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg","seo":{"href":"/furniture"},"name":"Furniture","identifier":"LivingRoomFurniture","storeID":"11","sequence":"1.0","id":"10502","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10502"}},"description":"Beautiful chairs, couches and tables that fit any decor"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg","seo":{"href":"/lighting-livingroomlighting"},"name":"Lighting","identifier":"LivingRoomLighting","storeID":"11","sequence":"2.0","id":"10503","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10503"}},"description":"Illuminate your living room with a variety of pendant lights and chandeliers"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg","seo":{"href":"/decoration"},"name":"Decoration","identifier":"Decoration","storeID":"11","sequence":"3.0","id":"10504","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10504"}},"description":"Versatile pieces to accent all your surfaces and walls"}],"id":"10501","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10502","href: /search/resources/api/v2/categories?storeId=11&amp;id=10503","href: /search/resources/api/v2/categories?storeId=11&amp;id=10504"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10501"}},"description":"Bring your living space together with comfort and style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/dep_bathroom.jpg","seo":{"href":"/bath"},"name":"Bath","identifier":"Bath","storeID":"11","sequence":"2.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg","seo":{"href":"/lighting"},"name":"Lighting","identifier":"BathLighting","storeID":"11","sequence":"1.0","id":"10510","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10510"}},"description":"Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg","seo":{"href":"/fixtures"},"name":"Fixtures","identifier":"Fixtures","storeID":"11","sequence":"2.0","id":"10511","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10511"}},"description":"Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg","seo":{"href":"/accessories"},"name":"Accessories","identifier":"Accessories","storeID":"11","sequence":"3.0","id":"10512","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10512"}},"description":"Accent your bath with stylish accessories and makeup mirrors"}],"id":"10509","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10510","href: /search/resources/api/v2/categories?storeId=11&amp;id=10511","href: /search/resources/api/v2/categories?storeId=11&amp;id=10512"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10509"}},"description":"Modernize your bath space with a variety of vanity fixtures and lighting options"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dep_bedroom.jpg","seo":{"href":"/bedroom"},"name":"Bedroom","identifier":"Bedroom","storeID":"11","sequence":"3.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg","seo":{"href":"/beds"},"name":"Beds","identifier":"Beds","storeID":"11","sequence":"1.0","id":"10514","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10514"}},"description":"Functional and space-saving beds to extend any sleeping space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg","seo":{"href":"/dressers"},"name":"Dressers","identifier":"Dressers","storeID":"11","sequence":"2.0","id":"10515","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10515"}},"description":"Highly-functional dressers that maximize both storage space and function"}],"id":"10513","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10514","href: /search/resources/api/v2/categories?storeId=11&amp;id=10515"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10513"}},"description":"Furnish your bedrooms in style and make them your own"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/dep_diningroom.jpg","seo":{"href":"/dining-room"},"name":"Dining Room","identifier":"DiningRoom","storeID":"11","sequence":"4.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg","seo":{"href":"/tables"},"name":"Tables","identifier":"DiningTables","storeID":"11","sequence":"1.0","id":"10506","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10506"}},"description":"Find the perfect dining table for serving your guests in comfort and style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg","seo":{"href":"/chairs"},"name":"Chairs","identifier":"DiningChairs","storeID":"11","sequence":"2.0","id":"10507","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10507"}},"description":"Sturdy seating that matches any dining room decor"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg","seo":{"href":"/buffets"},"name":"Buffets","identifier":"Buffets","storeID":"11","sequence":"3.0","id":"10508","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10508"}},"description":"Add fully-functional drawer, cabinet, and counter space to any dining room in style"}],"id":"10505","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10506","href: /search/resources/api/v2/categories?storeId=11&amp;id=10507","href: /search/resources/api/v2/categories?storeId=11&amp;id=10508"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10505"}},"description":"Entertain your guests with dining room furniture and decor that fits any space"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/dep_kitchen.jpg","seo":{"href":"/kitchen"},"name":"Kitchen","identifier":"Kitchen","storeID":"11","sequence":"5.0","children":[{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg","seo":{"href":"/cabinets"},"name":"Cabinets","identifier":"Cabinets","storeID":"11","sequence":"1.0","id":"10517","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10517"}},"description":"Versatile cabinetry and shelving give your kitchen storage space in style"},{"thumbnail":"/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg","seo":{"href":"/countertops"},"name":"Countertops","identifier":"Countertops","storeID":"11","sequence":"2.0","id":"10518","links":{"parent":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"},"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10518"}},"description":"Heat, scratch, stain, and water resistant countertops for every kitchen"}],"id":"10516","links":{"children":["href: /search/resources/api/v2/categories?storeId=11&amp;id=10517","href: /search/resources/api/v2/categories?storeId=11&amp;id=10518"],"self":{"href":"/search/resources/api/v2/categories?storeId=11&amp;id=10516"}},"description":"Create a kitchen that suits your needs and fits your lifestyle"}]}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
@@ -344,7 +329,6 @@
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
-<<<<<<< Updated upstream
                                     <updateField path="/text/Object/contents">
                                     <_c assocdefid="Array"/>
                                     </updateField>
@@ -363,555 +347,47 @@
                                     <updateField path="/text/Object/contents/0/children/2">
                                     <_c name="2"/>
                                     </updateField>
-=======
-                                    <setAction index="0"
-                                    path="/text/Object/contents"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/0">
-                                    <_c name="0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/name">
-                                    <_c value="Living Room"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/identifier">
-                                    <_c value="LivingRoom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/shortDescription">
-                                    <_c value="Bring your living space together with comfort and style"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/uniqueID">
-                                    <_c value="10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/parentCatalogGroupID">
-                                    <_c value="/10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/dep_livingroom.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/seo/href">
-                                    <_c value="/living-room"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0">
-                                    <_c name="0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/name">
-                                    <_c value="Furniture"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/identifier">
-                                    <_c value="LivingRoomFurniture"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/shortDescription">
-                                    <_c value="Beautiful chairs, couches and tables that fit any decor"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/0/children/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/0/children/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/uniqueID">
-                                    <_c value="10502"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/parentCatalogGroupID">
-                                    <_c value="/10501/10502"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/seo/href">
-                                    <_c value="/furniture"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/furniture.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/id">
-                                    <_c value="10502"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10502"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/0/description">
-                                    <_c value="Beautiful chairs, couches and tables that fit any decor"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1">
-                                    <_c name="1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/name">
-                                    <_c value="Lighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/identifier">
-                                    <_c value="LivingRoomLighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/shortDescription">
-                                    <_c value="Illuminate your living room with a variety of pendant lights and chandeliers"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/uniqueID">
-                                    <_c value="10503"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/parentCatalogGroupID">
-                                    <_c value="/10501/10503"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/seo/href">
-                                    <_c value="/lighting-livingroomlighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/livingroom-lighting.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/id">
-                                    <_c value="10503"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10503"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/1/description">
-                                    <_c value="Illuminate your living room with a variety of pendant lights and chandeliers"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2">
-                                    <_c name="2"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/name">
-                                    <_c value="Decoration"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/identifier">
-                                    <_c value="Decoration"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/shortDescription">
-                                    <_c value="Versatile pieces to accent all your surfaces and walls"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/0/children/2/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/0/children/2/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/uniqueID">
-                                    <_c value="10504"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/parentCatalogGroupID">
-                                    <_c value="/10501/10504"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/seo/href">
-                                    <_c value="/decoration"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/sequence">
-                                    <_c value="3.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/category/decoration.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/id">
-                                    <_c value="10504"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10504"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/children/2/description">
-                                    <_c value="Versatile pieces to accent all your surfaces and walls"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/id">
-                                    <_c value="10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=-1"/>
-                                    </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/0/links/children"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
->>>>>>> Stashed changes
                                     <updateField path="/text/Object/contents/0/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0/links/children/0">
-                                    <_c name="0" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10503"/>
+                                    <_c name="0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0/links/children/1">
-                                    <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10502"/>
+                                    <_c name="1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0/links/children/2">
-                                    <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10504"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10501"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/0/description">
-                                    <_c value="Bring your living space together with comfort and style"/>
+                                    <_c name="2"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1">
                                     <_c name="1"/>
                                     </updateField>
-<<<<<<< Updated upstream
-=======
-                                    <updateField path="/text/Object/contents/1/name">
-                                    <_c value="Bath"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/identifier">
-                                    <_c value="Bath"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/shortDescription">
-                                    <_c value="Modernize your bath space with a variety of vanity fixtures and lighting options"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/1/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/uniqueID">
-                                    <_c value="10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/parentCatalogGroupID">
-                                    <_c value="/10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/dep_bathroom.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/seo/href">
-                                    <_c value="/bath"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
->>>>>>> Stashed changes
                                     <updateField path="/text/Object/contents/1/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/children/0">
                                     <_c name="0"/>
                                     </updateField>
-<<<<<<< Updated upstream
                                     <updateField path="/text/Object/contents/1/children/1">
                                     <_c name="1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/children/2">
                                     <_c name="2"/>
                                     </updateField>
-=======
-                                    <updateField path="/text/Object/contents/1/children/0/name">
-                                    <_c value="Lighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/identifier">
-                                    <_c value="BathLighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/shortDescription">
-                                    <_c value="Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/1/children/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/1/children/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/uniqueID">
-                                    <_c value="10510"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/parentCatalogGroupID">
-                                    <_c value="/10509/10510"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/seo/href">
-                                    <_c value="/lighting"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/lighting.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/id">
-                                    <_c value="10510"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10510"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/0/description">
-                                    <_c value="Plenty of ceiling-mounted light fixtures to create bright, even lighting throughout your bathroom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1">
-                                    <_c name="1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/name">
-                                    <_c value="Fixtures"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/identifier">
-                                    <_c value="Fixtures"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/shortDescription">
-                                    <_c value="Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/1/children/1/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/1/children/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/uniqueID">
-                                    <_c value="10511"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/parentCatalogGroupID">
-                                    <_c value="/10509/10511"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/seo/href">
-                                    <_c value="/fixtures"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/fixtures.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/id">
-                                    <_c value="10511"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10511"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/1/description">
-                                    <_c value="Find the perfect faucet and showerhead to transform your master ensuite into an open, modern bath space"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2">
-                                    <_c name="2"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/name">
-                                    <_c value="Accessories"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/identifier">
-                                    <_c value="Accessories"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/shortDescription">
-                                    <_c value="Accent your bath with stylish accessories and makeup mirrors"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/1/children/2/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/1/children/2/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/uniqueID">
-                                    <_c value="10512"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/parentCatalogGroupID">
-                                    <_c value="/10509/10512"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/seo/href">
-                                    <_c value="/accessories"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/sequence">
-                                    <_c value="3.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bathroom/category/accessories.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/id">
-                                    <_c value="10512"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10512"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/children/2/description">
-                                    <_c value="Accent your bath with stylish accessories and makeup mirrors"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/id">
-                                    <_c value="10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=-1"/>
-                                    </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/1/links/children"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
->>>>>>> Stashed changes
                                     <updateField path="/text/Object/contents/1/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/links/children/0">
-                                    <_c name="0" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10510"/>
+                                    <_c name="0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/links/children/1">
-                                    <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10512"/>
+                                    <_c name="1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/links/children/2">
-                                    <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10511"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10509"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/1/description">
-                                    <_c value="Modernize your bath space with a variety of vanity fixtures and lighting options"/>
+                                    <_c name="2"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2">
                                     <_c name="2"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/name">
-                                    <_c value="Bedroom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/identifier">
-                                    <_c value="Bedroom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/shortDescription">
-                                    <_c value="Furnish your bedrooms in style and make them your own"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/2/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/2/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/uniqueID">
-                                    <_c value="10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/parentCatalogGroupID">
-                                    <_c value="/10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/dep_bedroom.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/seo/href">
-                                    <_c value="/bedroom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/sequence">
-                                    <_c value="3.0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/children">
                                     <_c assocdefid="Array"/>
@@ -919,176 +395,20 @@
                                     <updateField path="/text/Object/contents/2/children/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/name">
-                                    <_c value="Beds"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/identifier">
-                                    <_c value="Beds"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/shortDescription">
-                                    <_c value="Functional and space-saving beds to extend any sleeping space"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/2/children/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/2/children/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/uniqueID">
-                                    <_c value="10514"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/parentCatalogGroupID">
-                                    <_c value="/10513/10514"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/seo/href">
-                                    <_c value="/beds"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/id">
-                                    <_c value="10514"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10514"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/0/description">
-                                    <_c value="Functional and space-saving beds to extend any sleeping space"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents/2/children/1">
                                     <_c name="1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/name">
-                                    <_c value="Dressers"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/identifier">
-                                    <_c value="Dressers"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/shortDescription">
-                                    <_c value="Highly-functional dressers that maximize both storage space and function"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/2/children/1/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/2/children/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/uniqueID">
-                                    <_c value="10515"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/parentCatalogGroupID">
-                                    <_c value="/10513/10515"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/seo/href">
-                                    <_c value="/dressers"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/id">
-                                    <_c value="10515"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10515"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/children/1/description">
-                                    <_c value="Highly-functional dressers that maximize both storage space and function"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/id">
-                                    <_c value="10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=-1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/links/children/0">
-                                    <_c name="0" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10514"/>
+                                    <_c name="0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/links/children/1">
-                                    <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10515"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/2/description">
-                                    <_c value="Furnish your bedrooms in style and make them your own"/>
+                                    <_c name="1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3">
                                     <_c name="3"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/name">
-                                    <_c value="Dining Room"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/identifier">
-                                    <_c value="DiningRoom"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/shortDescription">
-                                    <_c value="Entertain your guests with dining room furniture and decor that fits any space"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/3/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/3/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/uniqueID">
-                                    <_c value="10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/parentCatalogGroupID">
-                                    <_c value="/10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/dep_diningroom.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/seo/href">
-                                    <_c value="/dining-room"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/sequence">
-                                    <_c value="4.0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/children">
                                     <_c assocdefid="Array"/>
@@ -1096,235 +416,26 @@
                                     <updateField path="/text/Object/contents/3/children/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/name">
-                                    <_c value="Tables"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/identifier">
-                                    <_c value="DiningTables"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/shortDescription">
-                                    <_c value="Find the perfect dining table for serving your guests in comfort and style"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/3/children/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/3/children/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/uniqueID">
-                                    <_c value="10506"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/parentCatalogGroupID">
-                                    <_c value="/10505/10506"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/seo/href">
-                                    <_c value="/tables"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/id">
-                                    <_c value="10506"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10506"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/0/description">
-                                    <_c value="Find the perfect dining table for serving your guests in comfort and style"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents/3/children/1">
                                     <_c name="1"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/name">
-                                    <_c value="Chairs"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/identifier">
-                                    <_c value="DiningChairs"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/shortDescription">
-                                    <_c value="Sturdy seating that matches any dining room decor"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/3/children/1/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/3/children/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/uniqueID">
-                                    <_c value="10507"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/parentCatalogGroupID">
-                                    <_c value="/10505/10507"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/seo/href">
-                                    <_c value="/chairs"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/id">
-                                    <_c value="10507"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10507"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/1/description">
-                                    <_c value="Sturdy seating that matches any dining room decor"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents/3/children/2">
                                     <_c name="2"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/name">
-                                    <_c value="Buffets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/identifier">
-                                    <_c value="Buffets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/shortDescription">
-                                    <_c value="Add fully-functional drawer, cabinet, and counter space to any dining room in style"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/3/children/2/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/3/children/2/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/uniqueID">
-                                    <_c value="10508"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/parentCatalogGroupID">
-                                    <_c value="/10505/10508"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/seo/href">
-                                    <_c value="/buffets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/sequence">
-                                    <_c value="3.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/id">
-                                    <_c value="10508"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10508"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/children/2/description">
-                                    <_c value="Add fully-functional drawer, cabinet, and counter space to any dining room in style"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/id">
-                                    <_c value="10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=-1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/links/children/0">
-                                    <_c name="0" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10507"/>
+                                    <_c name="0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/links/children/1">
-                                    <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10506"/>
+                                    <_c name="1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/links/children/2">
-                                    <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10508"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/3/description">
-                                    <_c value="Entertain your guests with dining room furniture and decor that fits any space"/>
+                                    <_c name="2"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4">
                                     <_c name="4"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/name">
-                                    <_c value="Kitchen"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/identifier">
-                                    <_c value="Kitchen"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/shortDescription">
-                                    <_c value="Create a kitchen that suits your needs and fits your lifestyle"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/4/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/4/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/uniqueID">
-                                    <_c value="10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/parentCatalogGroupID">
-                                    <_c value="/10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/dep_kitchen.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/seo/href">
-                                    <_c value="/kitchen"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/sequence">
-                                    <_c value="5.0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4/children">
                                     <_c assocdefid="Array"/>
@@ -1332,135 +443,17 @@
                                     <updateField path="/text/Object/contents/4/children/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/name">
-                                    <_c value="Cabinets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/identifier">
-                                    <_c value="Cabinets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/shortDescription">
-                                    <_c value="Versatile cabinetry and shelving give your kitchen storage space in style"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/4/children/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/4/children/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/uniqueID">
-                                    <_c value="10517"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/parentCatalogGroupID">
-                                    <_c value="/10516/10517"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/seo/href">
-                                    <_c value="/cabinets"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/sequence">
-                                    <_c value="1.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/id">
-                                    <_c value="10517"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10517"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/0/description">
-                                    <_c value="Versatile cabinetry and shelving give your kitchen storage space in style"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents/4/children/1">
                                     <_c name="1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/name">
-                                    <_c value="Countertops"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/identifier">
-                                    <_c value="Countertops"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/shortDescription">
-                                    <_c value="Heat, scratch, stain, and water resistant countertops for every kitchen"/>
-                                    </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/4/children/1/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/4/children/1/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/uniqueID">
-                                    <_c value="10518"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/parentCatalogGroupID">
-                                    <_c value="/10516/10518"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/thumbnail">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/seo/href">
-                                    <_c value="/countertops"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/storeID">
-                                    <_c value="11"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/sequence">
-                                    <_c value="2.0"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/fullImage">
-                                    <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/id">
-                                    <_c value="10518"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10518"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/children/1/description">
-                                    <_c value="Heat, scratch, stain, and water resistant countertops for every kitchen"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/id">
-                                    <_c value="10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/links/parent/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=-1"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4/links/children/0">
-                                    <_c name="0" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10518"/>
+                                    <_c name="0"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4/links/children/1">
-                                    <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10517"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/links/self/href">
-                                    <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
-                                    </updateField>
-                                    <updateField path="/text/Object/contents/4/description">
-                                    <_c value="Create a kitchen that suits your needs and fits your lifestyle"/>
+                                    <_c name="1"/>
                                     </updateField>
                                 </updates>
                             </contentTree>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266272444"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7de1"
-    type="environment_resource" updatedTimestamp="1628491774737"
+    type="environment_resource" updatedTimestamp="1617290590547"
     updatedUser="STUART.WALKER" version="1.0">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
@@ -9,7 +9,7 @@
         <environmentVariable evdescription="" key="baseUrl_HOST" value="LP1-EU-51627856"/>
         <environmentVariable evdescription="" key="baseUrl_PATH" value="/RTCP/examples/phonebook/api"/>
         <environmentVariable evdescription="" key="baseUrl_PORT" value="7443"/>
-        <environmentVariable evdescription="" key="bda-hostname" value="commerce-preview.sbx0070.play.products.pnpsofy.com"/>
+        <environmentVariable evdescription="" key="bda-hostname" value="commerce-preview.sbx0049.play.products.pnpsofy.com"/>
         <environmentVariable evdescription="" key="catalogId" value="11501"/>
         <environmentVariable evdescription="" key="categoryId" value="10502"/>
         <environmentVariable evdescription="" key="contractId" value="-11005"/>

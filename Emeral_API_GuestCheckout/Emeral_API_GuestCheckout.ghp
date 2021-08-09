@@ -58,7 +58,7 @@
         <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
             <connectionParams ZOSEnv="false"
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
-                dpsPass="#com.ghc.1!7aaf" dpsUser="" driverClass=""
+                dpsPass="#com.ghc.1!5da6" dpsUser="" driverClass=""
                 password="#com.ghc.1!6db7" schema="" url=""
                 useSsl="false" user="">
                 <dpsSsl useSsl="false"/>
@@ -80,7 +80,7 @@
         <automationServer enabled="false" hostname="" port="443"
             projectId="-1" projectName="--No Project Selected--"
             publishResults="false" trustSource="TRUST_ALL"
-            trustStorePassword="#com.ghc.1!f3c6" trustStorePath=""/>
+            trustStorePassword="#com.ghc.1!2a3c" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings autoLogin="true" host="AP-PNP-DC02"
         permFactId="ldap.permissions.factory.none" port="389" pswd="Ekca1HttlIsCuz+5UctxZ1mamQlwaHAsx4PJfoZwDn4=$0CDWbH5WcSUHXUuQxi4eESexJBcaaXueG2cD9xuxHHQ="/>

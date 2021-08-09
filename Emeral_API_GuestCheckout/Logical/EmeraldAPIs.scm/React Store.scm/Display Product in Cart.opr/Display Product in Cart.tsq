@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275506"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78e6"
-    type="test_resource" updatedTimestamp="1628492736308"
+    type="test_resource" updatedTimestamp="1617295293525"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -275,10 +275,7 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        URL="" _version="1.1" allowSubPath="false"
-                        consumerType="Participate" filterHeaders="false"
-                        filterMethod="false" filterResourcePath="false"
-                        formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -295,7 +292,7 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"metaData":{"price":"1"},"contents":[{"hasSingleSKU":false,"buyable":"true","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1","shortDescription":"A sturdy wooden angled chair that welcomes every guest into your living space in style. Includes a matching movable leg rest.","thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","seo":{"href":"/wooden-angled-chair-lr-fntr-0001-0002"},"partNumber":"LR-FNTR-0001-0002","storeID":"11","parentCatalogGroupID":"/10501/10502","name":"Wooden Angled Chair","manufacturer":"Home Design","longDescription":"Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.","parentCatalogEntryID":"14018","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","price":[{"usage":"Display","description":"L","currency":"USD","value":"800.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"749.99"}],"attributes":[{"identifier":"Color","usage":"Defining","values":[{"sequence":"10.0","identifier":"cedar","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003018","image1":"/EmeraldCAS/images/catalog/swatches/sw_cedar.png","value":"Cedar","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_cedar.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","name":"Wooden Angled Chair Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg"}],"type":"item","id":"14020"}],"total":1}<defaultActions>
+                            <contentTree>{"contents":[{"hasSingleSKU":false,"buyable":"true","shortDescription":"A sturdy wooden angled chair that welcomes every guest into your living space in style. Includes a matching movable leg rest.","thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","seo":{"href":"/wooden-angled-chair-lr-fntr-0001-0002"},"partNumber":"LR-FNTR-0001-0002","storeID":"11","parentCatalogGroupID":"/10501/10502","name":"Wooden Angled Chair","longDescription":"Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.","parentCatalogEntryID":"14018","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","price":[{"usage":"Display","description":"L","currency":"USD","value":"800.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"749.99"}],"attributes":[{"identifier":"Color","usage":"Defining","values":[{"sequence":"10.0","identifier":"cedar","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003018","image1":"/EmeraldCAS/images/catalog/swatches/sw_cedar.png","value":"Cedar","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_cedar.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","key":"7000000000000000501","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","name":"Wooden Angled Chair Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg"}],"type":"item","id":"14020"}],"total":1}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
@@ -332,50 +329,11 @@
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
-                                    <setAction index="0" path="/text/Object/metaData">
-                                    <fieldAction type="0">
-                                    <fieldAction type="100"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <setAction index="0" path="/text/Object/metaData/price">
-                                    <fieldAction type="0">
-                                    <fieldAction exp="1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/metaData/price">
-                                    <_c value="1"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents">
                                     <_c assocdefid="Array"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0">
                                     <_c name="0"/>
-                                    </updateField>
-                                    <setAction index="2"
-                                    path="/text/Object/contents/0/resourceId"
-                                    replaceActionType="0" replaceOuterType="1">
-                                    <fieldAction enabled="false" type="1">
-                                    <fieldAction enabled="false"
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <setAction index="2" path="/text/Object/contents/0/resourceId">
-                                    <fieldAction type="0">
-                                    <fieldAction
-                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/0/resourceId">
-                                    <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1"/>
-                                    </updateField>
-                                    <setAction index="11" path="/text/Object/contents/0/manufacturer">
-                                    <fieldAction type="0">
-                                    <fieldAction
-                                    exp="Home Design" type="0"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <updateField path="/text/Object/contents/0/manufacturer">
-                                    <_c value="Home Design"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0/price">
                                     <_c assocdefid="Array"/>
