@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275625"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
-    type="test_resource" updatedTimestamp="1628498962707"
+    type="test_resource" updatedTimestamp="1628499145859"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -359,6 +359,14 @@
                                     <updateField path="/text/Object/contents/0/shortDescription">
                                     <_c value="Bring your living space together with comfort and style"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/0/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
@@ -451,6 +459,14 @@
                                     <updateField path="/text/Object/contents/0/children/1/shortDescription">
                                     <_c value="Illuminate your living room with a variety of pendant lights and chandeliers"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/0/children/1/resourceId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/0/children/1/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/categories?contractId=-11005&amp;depthAndLimit=11,11&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
