@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275471"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78f9"
-    type="test_resource" updatedTimestamp="1617295397746"
+    type="test_resource" updatedTimestamp="1628492808137"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -329,7 +329,10 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
+                        URL="" _version="1.1" allowSubPath="false"
+                        consumerType="Participate" filterHeaders="false"
+                        filterMethod="false" filterResourcePath="false"
+                        formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
