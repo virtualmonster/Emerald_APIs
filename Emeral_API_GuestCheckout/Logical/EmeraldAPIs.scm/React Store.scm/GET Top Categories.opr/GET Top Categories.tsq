@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275625"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7899"
-    type="test_resource" updatedTimestamp="1628581185616"
+    type="test_resource" updatedTimestamp="1628582053976"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -122,8 +122,7 @@
                             </fieldAction>
                         </fieldActionGroup>
                         <_c meTy="String" name="StatusCode"
-                            sch="Http Receive Reply" type="7"
-                            value="200" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="200" type="0"/>
@@ -131,7 +130,7 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="String" name="ReasonPhrase"
-                            sch="Http Receive Reply" type="7" value="OK" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction type="1">
                                     <fieldAction exp="OK" type="0"/>
@@ -141,15 +140,15 @@
                         <_c meTy="Message" name="httpDetails"
                             sch="Http Receive Reply" type="12" version="1.2">
                             <fieldActionGroup>
-                                <fieldAction type="1">
+                                <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="false"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                 </fieldAction>
                             </fieldActionGroup>
                             <_c meTy="String" name="Version"
-                                sch="Http Receive Reply" type="7"
-                                value="HTTP/1.1" version="1.2">
+                                sch="Http Receive Reply" type="7" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -160,15 +159,15 @@
                             <_c meTy="Message" name="httpHeaders"
                                 sch="Http Receive Reply" type="12" version="1.2">
                                 <fieldActionGroup>
-                                    <fieldAction type="1">
+                                    <fieldAction enabled="false" type="1">
                                     <fieldAction anyOrder="true"
+                                    enabled="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                 </fieldActionGroup>
-                                <_c meTy="String" name="Server"
-                                    sch="Http Receive Reply" type="7"
-                                    value="nginx/1.19.3" version="1.2">
+                                <_c meTy="String" name="server"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -176,9 +175,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Date"
-                                    sch="Http Receive Reply" type="7"
-                                    value="Mon, 09 Aug 2021 06:51:35 GMT" version="1.2">
+                                <_c meTy="String" name="date"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -186,9 +184,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Content-Type"
-                                    sch="Http Receive Reply" type="7"
-                                    value="application/json" version="1.2">
+                                <_c meTy="String" name="content-type"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -197,9 +194,8 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String"
-                                    name="Transfer-Encoding"
-                                    sch="Http Receive Reply" type="7"
-                                    value="chunked" version="1.2">
+                                    name="transfer-encoding"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -207,9 +203,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Connection"
-                                    sch="Http Receive Reply" type="7"
-                                    value="keep-alive" version="1.2">
+                                <_c meTy="String" name="connection"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -218,8 +213,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c meTy="String" name="traceid"
-                                    sch="Http Receive Reply" type="7"
-                                    value="6994319431969268744" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -229,8 +223,7 @@
                                 </_c>
                                 <_c meTy="String"
                                     name="content-language"
-                                    sch="Http Receive Reply" type="7"
-                                    value="en-US" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -240,8 +233,7 @@
                                 </_c>
                                 <_c meTy="String"
                                     name="x-envoy-upstream-service-time"
-                                    sch="Http Receive Reply" type="7"
-                                    value="199" version="1.2">
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -249,9 +241,8 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                 </_c>
-                                <_c meTy="String" name="Cache-Control"
-                                    sch="Http Receive Reply" type="7"
-                                    value="no-store" version="1.2">
+                                <_c meTy="String" name="cache-control"
+                                    sch="Http Receive Reply" type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -262,8 +253,7 @@
                             </_c>
                         </_c>
                         <_c meTy="String" name="MessageType"
-                            sch="Http Receive Reply" type="7"
-                            value="http.text.message.type" version="1.2">
+                            sch="Http Receive Reply" type="7" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -272,8 +262,7 @@
                             </fieldActionGroup>
                         </_c>
                         <_c meTy="Date-Time" name="rcvdTimestamp"
-                            sch="Http Receive Reply" type="11"
-                            value="07:51:35.456 2021/08/09" version="1.2">
+                            sch="Http Receive Reply" type="11" version="1.2">
                             <fieldActionGroup>
                                 <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
@@ -283,10 +272,7 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        URL="" _version="1.1" allowSubPath="false"
-                        consumerType="Participate" filterHeaders="false"
-                        filterMethod="false" filterResourcePath="false"
-                        formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -308,7 +294,7 @@
                                     <fieldActionGroup>
                                     <fieldAction type="1">
                                     <fieldAction
-                                    anyOrder="false"
+                                    anyOrder="true"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -337,38 +323,31 @@
                                     </defaultScalarActions>
                                 </defaultActions>
                                 <updates>
-                                    <setAction index="0"
-                                    path="/text/Object"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
                                     <setAction index="0"
-                                    path="/text/Object/contents/0"
+                                    path="/text/Object/contents"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
+                                    <updateField path="/text/Object/contents">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
                                     <updateField path="/text/Object/contents/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/0/seo"
+                                    <setAction index="6"
+                                    path="/text/Object/contents/0/children"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -376,23 +355,45 @@
                                     <updateField path="/text/Object/contents/0/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0/children/0"
+                                    <updateField path="/text/Object/contents/0/children/0">
+                                    <_c name="0"/>
+                                    </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/0/children/0/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
-                                    <updateField path="/text/Object/contents/0/children/0">
-                                    <_c name="0"/>
-                                    </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/0/children/1"
+                                    <setAction index="7"
+                                    path="/text/Object/contents/0/children/0/links"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/0/children/0/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/0/children/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -400,11 +401,42 @@
                                     <updateField path="/text/Object/contents/0/children/1">
                                     <_c name="1"/>
                                     </updateField>
-                                    <setAction index="2"
-                                    path="/text/Object/contents/0/children/2"
+                                    <setAction index="3"
+                                    path="/text/Object/contents/0/children/1/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/0/children/1/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/0/children/1/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/0/children/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -412,20 +444,42 @@
                                     <updateField path="/text/Object/contents/0/children/2">
                                     <_c name="2"/>
                                     </updateField>
-                                    <setAction index="8"
-                                    path="/text/Object/contents/0/links"
+                                    <setAction index="3"
+                                    path="/text/Object/contents/0/children/2/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/0/children/2/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="0"
-                                    path="/text/Object/contents/0/links/children"
+                                    path="/text/Object/contents/0/children/2/links/parent"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/0/children/2/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -442,24 +496,45 @@
                                     <updateField path="/text/Object/contents/0/links/children/2">
                                     <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10504"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/0/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10501"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/0/description">
                                     <_c value="Bring your living space together with comfort and style"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/1"
+                                    <updateField path="/text/Object/contents/1">
+                                    <_c name="1"/>
+                                    </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/1/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
-                                    <updateField path="/text/Object/contents/1">
-                                    <_c name="1"/>
-                                    </updateField>
+                                    <setAction index="6"
+                                    path="/text/Object/contents/1/children"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
@@ -477,11 +552,42 @@
                                     <updateField path="/text/Object/contents/1/children/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/1/children/1"
+                                    <setAction index="7"
+                                    path="/text/Object/contents/1/children/0/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="12"
+                                    path="/text/Object/contents/1/children/0/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/1/children/0/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1/children/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -489,11 +595,42 @@
                                     <updateField path="/text/Object/contents/1/children/1">
                                     <_c name="1"/>
                                     </updateField>
-                                    <setAction index="2"
-                                    path="/text/Object/contents/1/children/2"
+                                    <setAction index="3"
+                                    path="/text/Object/contents/1/children/1/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/1/children/1/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/1/children/1/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1/children/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -501,20 +638,42 @@
                                     <updateField path="/text/Object/contents/1/children/2">
                                     <_c name="2"/>
                                     </updateField>
-                                    <setAction index="8"
-                                    path="/text/Object/contents/1/links"
+                                    <setAction index="3"
+                                    path="/text/Object/contents/1/children/2/seo"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/1/children/2/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="0"
-                                    path="/text/Object/contents/1/links/children"
+                                    path="/text/Object/contents/1/children/2/links/parent"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1/children/2/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -531,21 +690,22 @@
                                     <updateField path="/text/Object/contents/1/links/children/2">
                                     <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10511"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10509"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/1/description">
                                     <_c value="Modernize your bath space with a variety of vanity fixtures and lighting options"/>
                                     </updateField>
-                                    <setAction index="2"
-                                    path="/text/Object/contents/2"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/2">
                                     <_c name="2"/>
                                     </updateField>
@@ -558,6 +718,16 @@
                                     <updateField path="/text/Object/contents/2/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/dep_bedroom.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/2/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/seo/href">
                                     <_c value="/bedroom"/>
                                     </updateField>
@@ -567,18 +737,19 @@
                                     <updateField path="/text/Object/contents/2/sequence">
                                     <_c value="3.0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/2/children">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/2/children/0"
+                                    <setAction index="6"
+                                    path="/text/Object/contents/2/children"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
+                                    <updateField path="/text/Object/contents/2/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
                                     <updateField path="/text/Object/contents/2/children/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -591,6 +762,16 @@
                                     <updateField path="/text/Object/contents/2/children/0/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/beds.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/2/children/0/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/0/seo/href">
                                     <_c value="/beds"/>
                                     </updateField>
@@ -603,24 +784,45 @@
                                     <updateField path="/text/Object/contents/2/children/0/id">
                                     <_c value="10514"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/2/children/0/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/2/children/0/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/0/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/2/children/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/0/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10514"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/children/0/description">
                                     <_c value="Functional and space-saving beds to extend any sleeping space"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/2/children/1"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/1">
                                     <_c name="1"/>
                                     </updateField>
@@ -633,6 +835,16 @@
                                     <updateField path="/text/Object/contents/2/children/1/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/bedroom/category/dressers.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/2/children/1/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/1/seo/href">
                                     <_c value="/dressers"/>
                                     </updateField>
@@ -645,9 +857,39 @@
                                     <updateField path="/text/Object/contents/2/children/1/id">
                                     <_c value="10515"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/2/children/1/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/2/children/1/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/1/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/2/children/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/children/1/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10515"/>
                                     </updateField>
@@ -657,24 +899,6 @@
                                     <updateField path="/text/Object/contents/2/id">
                                     <_c value="10513"/>
                                     </updateField>
-                                    <setAction index="8"
-                                    path="/text/Object/contents/2/links"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/2/links/children"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/2/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
@@ -684,21 +908,22 @@
                                     <updateField path="/text/Object/contents/2/links/children/1">
                                     <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10515"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/2/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10513"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/2/description">
                                     <_c value="Furnish your bedrooms in style and make them your own"/>
                                     </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/3"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/3">
                                     <_c name="3"/>
                                     </updateField>
@@ -711,6 +936,16 @@
                                     <updateField path="/text/Object/contents/3/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/dep_diningroom.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/3/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/seo/href">
                                     <_c value="/dining-room"/>
                                     </updateField>
@@ -720,18 +955,19 @@
                                     <updateField path="/text/Object/contents/3/sequence">
                                     <_c value="4.0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/3/children">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/3/children/0"
+                                    <setAction index="6"
+                                    path="/text/Object/contents/3/children"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
+                                    <updateField path="/text/Object/contents/3/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
                                     <updateField path="/text/Object/contents/3/children/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -744,6 +980,16 @@
                                     <updateField path="/text/Object/contents/3/children/0/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/tables.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/3/children/0/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/0/seo/href">
                                     <_c value="/tables"/>
                                     </updateField>
@@ -756,24 +1002,45 @@
                                     <updateField path="/text/Object/contents/3/children/0/id">
                                     <_c value="10506"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/3/children/0/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/3/children/0/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/0/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/3/children/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/0/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10506"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/children/0/description">
                                     <_c value="Find the perfect dining table for serving your guests in comfort and style"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/3/children/1"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/1">
                                     <_c name="1"/>
                                     </updateField>
@@ -786,6 +1053,16 @@
                                     <updateField path="/text/Object/contents/3/children/1/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/chairs.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/3/children/1/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/1/seo/href">
                                     <_c value="/chairs"/>
                                     </updateField>
@@ -798,24 +1075,45 @@
                                     <updateField path="/text/Object/contents/3/children/1/id">
                                     <_c value="10507"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/3/children/1/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/3/children/1/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/1/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/3/children/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/1/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10507"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/children/1/description">
                                     <_c value="Sturdy seating that matches any dining room decor"/>
                                     </updateField>
-                                    <setAction index="2"
-                                    path="/text/Object/contents/3/children/2"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/2">
                                     <_c name="2"/>
                                     </updateField>
@@ -828,6 +1126,16 @@
                                     <updateField path="/text/Object/contents/3/children/2/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/diningroom/category/buffets.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/3/children/2/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/2/seo/href">
                                     <_c value="/buffets"/>
                                     </updateField>
@@ -840,9 +1148,39 @@
                                     <updateField path="/text/Object/contents/3/children/2/id">
                                     <_c value="10508"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/3/children/2/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/3/children/2/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/2/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/3/children/2/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/children/2/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10508"/>
                                     </updateField>
@@ -852,11 +1190,12 @@
                                     <updateField path="/text/Object/contents/3/id">
                                     <_c value="10505"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/3/links/children"
+                                    <setAction index="8"
+                                    path="/text/Object/contents/3/links"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -873,21 +1212,22 @@
                                     <updateField path="/text/Object/contents/3/links/children/2">
                                     <_c name="2" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10508"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/3/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10505"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/3/description">
                                     <_c value="Entertain your guests with dining room furniture and decor that fits any space"/>
                                     </updateField>
-                                    <setAction index="4"
-                                    path="/text/Object/contents/4"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/4">
                                     <_c name="4"/>
                                     </updateField>
@@ -900,6 +1240,16 @@
                                     <updateField path="/text/Object/contents/4/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/dep_kitchen.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/4/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/seo/href">
                                     <_c value="/kitchen"/>
                                     </updateField>
@@ -909,18 +1259,19 @@
                                     <updateField path="/text/Object/contents/4/sequence">
                                     <_c value="5.0"/>
                                     </updateField>
-                                    <updateField path="/text/Object/contents/4/children">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/4/children/0"
+                                    <setAction index="6"
+                                    path="/text/Object/contents/4/children"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
+                                    <updateField path="/text/Object/contents/4/children">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
                                     <updateField path="/text/Object/contents/4/children/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -933,6 +1284,16 @@
                                     <updateField path="/text/Object/contents/4/children/0/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/cabinets.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/4/children/0/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/0/seo/href">
                                     <_c value="/cabinets"/>
                                     </updateField>
@@ -945,24 +1306,45 @@
                                     <updateField path="/text/Object/contents/4/children/0/id">
                                     <_c value="10517"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/4/children/0/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/4/children/0/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/0/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/4/children/0/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/0/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10517"/>
                                     </updateField>
                                     <updateField path="/text/Object/contents/4/children/0/description">
                                     <_c value="Versatile cabinetry and shelving give your kitchen storage space in style"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/4/children/1"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/1">
                                     <_c name="1"/>
                                     </updateField>
@@ -975,6 +1357,16 @@
                                     <updateField path="/text/Object/contents/4/children/1/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/kitchen/category/countertops.jpg"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/4/children/1/seo"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/1/seo/href">
                                     <_c value="/countertops"/>
                                     </updateField>
@@ -987,9 +1379,39 @@
                                     <updateField path="/text/Object/contents/4/children/1/id">
                                     <_c value="10518"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/4/children/1/links"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/4/children/1/links/parent"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/1/links/parent/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/4/children/1/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/children/1/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10518"/>
                                     </updateField>
@@ -999,24 +1421,6 @@
                                     <updateField path="/text/Object/contents/4/id">
                                     <_c value="10516"/>
                                     </updateField>
-                                    <setAction index="8"
-                                    path="/text/Object/contents/4/links"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/4/links/children"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/4/links/children">
                                     <_c assocdefid="Array"/>
                                     </updateField>
@@ -1026,6 +1430,16 @@
                                     <updateField path="/text/Object/contents/4/links/children/1">
                                     <_c name="1" value="href: /search/resources/api/v2/categories?storeId=11&amp;id=10517"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/4/links/self"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4/links/self/href">
                                     <_c value="/search/resources/api/v2/categories?storeId=11&amp;id=10516"/>
                                     </updateField>
