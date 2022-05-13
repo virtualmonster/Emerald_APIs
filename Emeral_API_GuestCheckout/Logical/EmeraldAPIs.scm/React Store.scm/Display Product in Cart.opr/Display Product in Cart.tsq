@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275506"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78e6"
-    type="test_resource" updatedTimestamp="1641307714400"
-    updatedUser="STUART.WALKER" version="1.1">
-    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    type="test_resource" updatedTimestamp="1652431688468"
+    updatedUser="unknown" version="1.1">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
             <editableResource id="d67d2c9:1788c912586:-78e2"
                 selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
                 type="send_request_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; on resource &quot;/search/resources/api/v2/products?id=%%itemId%%&amp;storeId=%%storeId%%&amp;langId=-1&quot; using schema &quot;Text&quot; via &quot;bda-hostname:port-number&quot;" transport="d67d2c9:1788c912586:-7ec5:1390432723:408339756">
                     <headerMessage meTy="Message" type="12" version="1.2">
@@ -106,7 +107,8 @@
             <editableResource id="d67d2c9:1788c912586:-78de"
                 selfDescribing="Receive and validate a response to the request you have sent."
                 type="receive_reply_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-78e2"
@@ -295,12 +297,12 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"metaData":{"price":"1"},"contents":[{"hasSingleSKU":false,"buyable":"true","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1","shortDescription":"A sturdy wooden angled chair that welcomes every guest into your living space in style. Includes a matching movable leg rest.","thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","seo":{"href":"/wooden-angled-chair-lr-fntr-0001-0002"},"partNumber":"LR-FNTR-0001-0002","storeID":"11","parentCatalogGroupID":"/10501/10502","name":"Wooden Angled Chair","manufacturer":"Home Design","longDescription":"Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.","parentCatalogEntryID":"14018","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","price":[{"usage":"Display","description":"L","currency":"USD","value":"800.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"749.99"}],"attributes":[{"identifier":"Color","attribute.natural":"[\"Cedar\"]","usage":"Defining","values":[{"identifier":"cedar","sequence":"10.0","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003018","image1":"/EmeraldCAS/images/catalog/swatches/sw_cedar.png","value":"Cedar","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_cedar.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","name":"Wooden Angled Chair Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg"}],"type":"item","id":"14020"}],"total":1}<defaultActions>
+                            <contentTree>{"metaData":{"price":"1"},"contents":[{"hasSingleSKU":false,"buyable":"true","resourceId":"https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1","shortDescription":"A sturdy wooden angled chair that welcomes every guest into your living space in style. Includes a matching movable leg rest.","thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","seo":{"href":"/wooden-angled-chair-lr-fntr-0001-0002"},"partNumber":"LR-FNTR-0001-0002","seller":"","_ignored":"default.completion","storeID":"11","parentCatalogGroupID":"/10501/10502","name":"Wooden Angled Chair","manufacturer":"Home Design","longDescription":"Give your living room a bold new look with the modern and comfortable blue armchair. The armchair features a compact design, comfortable oversized pillow, easy to clean polyester fabric, and button tufts along the lower backrest. The armchair's modern styling is complemented with durable light brown wooden legs. No assembly required.","parentCatalogEntryID":"14018","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","price":[{"usage":"Display","description":"L","currency":"USD","value":"800.0"},{"usage":"Offer","contractId":"-11005","description":"I","currency":"USD","value":"749.99"}],"attributes":[{"identifier":"Color","attribute.natural":"[\"Cedar\"]","usage":"Defining","values":[{"identifier":"cedar","sequence":"10.0","unitOfMeasure":"one","unitID":"C62","id":"7000000000000003018","image1":"/EmeraldCAS/images/catalog/swatches/sw_cedar.png","value":"Cedar","image1path":"/hclstore/EmeraldCAS/images/catalog/swatches/sw_cedar.png"}],"displayable":"true","merchandisable":"true","searchable":"true","sequence":"1.0","storeDisplay":"false","name":"Color","facetable":"true","id":"7000000000000000501","comparable":"true","swatchable":"false"}],"images":[{"thumbnailRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","sequence":"-1000.0","thumbnail":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_350.jpg","name":"Wooden Angled Chair Main Image","fullImageRaw":"/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg","fullImage":"/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair1_b1_600.jpg"}],"type":"item","id":"14020"}],"total":1}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
                                     <fieldAction
-                                    anyOrder="true"
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -329,29 +331,9 @@
                                     </defaultScalarActions>
                                 </defaultActions>
                                 <updates>
-                                    <setAction index="0"
-                                    path="/text/Object"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/metaData"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <setAction index="0" path="/text/Object/metaData">
                                     <fieldAction type="0">
                                     <fieldAction type="100"/>
@@ -365,19 +347,18 @@
                                     <updateField path="/text/Object/metaData/price">
                                     <_c value="1"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents"
+                                    <updateField path="/text/Object/contents">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/0"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
+                                    <fieldAction anyOrder="true"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
-                                    <updateField path="/text/Object/contents">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
                                     <updateField path="/text/Object/contents/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -398,17 +379,24 @@
                                     <updateField path="/text/Object/contents/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
-                                    <setAction index="6"
-                                    path="/text/Object/contents/0/seo"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
+                                    <setAction index="8" path="/text/Object/contents/0/seller">
+                                    <fieldAction type="0">
+                                    <fieldAction type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="11" path="/text/Object/contents/0/manufacturer">
+                                    <updateField path="/text/Object/contents/0/seller">
+                                    <_c value=""/>
+                                    </updateField>
+                                    <setAction index="9" path="/text/Object/contents/0/_ignored">
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="default.completion" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/contents/0/_ignored">
+                                    <_c value="default.completion"/>
+                                    </updateField>
+                                    <setAction index="13" path="/text/Object/contents/0/manufacturer">
                                     <fieldAction type="0">
                                     <fieldAction
                                     exp="Home Design" type="0"/>
@@ -417,68 +405,18 @@
                                     <updateField path="/text/Object/contents/0/manufacturer">
                                     <_c value="Home Design"/>
                                     </updateField>
-                                    <setAction index="16"
-                                    path="/text/Object/contents/0/price"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/price">
                                     <_c assocdefid="Array"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0/price/0"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/price/0">
                                     <_c name="0"/>
                                     </updateField>
-                                    <setAction index="1"
-                                    path="/text/Object/contents/0/price/1"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/price/1">
                                     <_c name="1"/>
                                     </updateField>
-                                    <setAction index="17"
-                                    path="/text/Object/contents/0/attributes"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/attributes">
                                     <_c assocdefid="Array"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0/attributes/0"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/attributes/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -510,7 +448,7 @@
                                     <fieldAction type="1">
 
                                     <fieldAction
-                                    anyOrder="true"
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -546,6 +484,16 @@
                                     </defaultScalarActions>
                                     </defaultActions>
                                     <updates>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/0/attributes/0/attribute.natural/Array"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="true"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="0" path="/text/Object/contents/0/attributes/0/attribute.natural/Array">
                                     <fieldAction type="0">
                                     <fieldAction type="100"/>
@@ -570,29 +518,9 @@
                                     <updateField path="/text/Object/contents/0/attributes/0/usage">
                                     <_c value="Defining"/>
                                     </updateField>
-                                    <setAction index="3"
-                                    path="/text/Object/contents/0/attributes/0/values"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/attributes/0/values">
                                     <_c assocdefid="Array"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0/attributes/0/values/0"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/attributes/0/values/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -632,6 +560,14 @@
                                     <updateField path="/text/Object/contents/0/attributes/0/sequence">
                                     <_c value="1.0"/>
                                     </updateField>
+                                    <setAction index="8" path="/text/Object/contents/0/attributes/0/storeDisplay">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="false" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/contents/0/attributes/0/storeDisplay">
+                                    <_c value="false"/>
+                                    </updateField>
                                     <updateField path="/text/Object/contents/0/attributes/0/name">
                                     <_c value="Color"/>
                                     </updateField>
@@ -647,29 +583,9 @@
                                     <updateField path="/text/Object/contents/0/attributes/0/swatchable">
                                     <_c value="false"/>
                                     </updateField>
-                                    <setAction index="18"
-                                    path="/text/Object/contents/0/images"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/images">
                                     <_c assocdefid="Array"/>
                                     </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/contents/0/images/0"
-                                    replaceActionType="100" replaceOuterType="1">
-                                    <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
-                                    </fieldAction>
-                                    </setAction>
                                     <updateField path="/text/Object/contents/0/images/0">
                                     <_c name="0"/>
                                     </updateField>

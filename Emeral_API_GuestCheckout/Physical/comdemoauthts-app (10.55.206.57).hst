@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1652430911547" createdUser="unknown"
+    id="-268a9093:180bc8eb293:-7e5b"
+    selfDescribing="comdemoauthts-app (10.55.206.57)"
+    type="host_machine_resource" updatedTimestamp="1652430911547"
+    updatedUser="unknown" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="10.55.206.57" user_host_name="comdemoauthts-app">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>
