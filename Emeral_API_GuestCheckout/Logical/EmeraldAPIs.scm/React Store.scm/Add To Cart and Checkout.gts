@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266762975"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-67a8"
-    type="test_suite_resource" updatedTimestamp="1617270541893"
-    updatedUser="STUART.WALKER" version="1.0">
-    <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
+    type="test_suite_resource" updatedTimestamp="1652453492453"
+    updatedUser="unknown" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="true"/>
     <resourceConfig>
         <scenario continueOnFail="true" id="d67d2c9:1788c912586:-67a7"
             type="scenario" version="1.0">
-            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <loggingConfiguration debug="false"
+                resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
             <resourceConfig chkenv="false" name="Scenario"
                 pacingtime="0.0" pacingtype="MIN_DURATION"
                 parallel="false" slowfail="false" usepacing="false">
@@ -46,12 +47,12 @@
                 lkpath="EmeraldAPIs/React Store/Display Product in Cart/Display Product in Cart" type="test_resource"/>
             <testItem continueOnFail="true"
                 id="d67d2c9:1788c912586:-7890"
-                lkname="Create Billing/Shipping Address Info"
-                lkpath="EmeraldAPIs/React Store/Create Billing/Shipping Address Info/Create Billing/Shipping Address Info" type="test_resource"/>
+                lkname="Create Billing Shipping Address Info"
+                lkpath="EmeraldAPIs/React Store/Create Billing Shipping Address Info/Create Billing Shipping Address Info" type="test_resource"/>
             <testItem continueOnFail="true"
                 id="d67d2c9:1788c912586:-78c8"
-                lkname="Set Shipping/Address Info For Order"
-                lkpath="EmeraldAPIs/React Store/Set Shipping/Address Info For Order/Set Shipping/Address Info For Order" type="test_resource"/>
+                lkname="Set Shipping Address Info For Order"
+                lkpath="EmeraldAPIs/React Store/Set Shipping Address Info For Order/Set Shipping Address Info For Order" type="test_resource"/>
             <testItem continueOnFail="true"
                 id="d67d2c9:1788c912586:-7902"
                 lkname="Show All Payment methods"

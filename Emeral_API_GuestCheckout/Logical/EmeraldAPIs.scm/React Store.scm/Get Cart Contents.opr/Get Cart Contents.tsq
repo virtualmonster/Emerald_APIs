@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275519"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78db"
-    type="test_resource" updatedTimestamp="1618568072340"
-    updatedUser="STUART.WALKER" version="1.1">
-    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    type="test_resource" updatedTimestamp="1652431640798"
+    updatedUser="unknown" version="1.1">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
             <editableResource id="d67d2c9:1788c912586:-78d9"
                 selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
                 type="send_request_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; on resource &quot;/wcs/resources/store/%%storeId%%/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1&quot; using schema &quot;Text&quot; via &quot;Emerald WCS API Endpoint&quot;" transport="6b10b499:1788e004ea0:-7a7b">
                     <headerMessage meTy="Message" type="12" version="1.2">
@@ -133,7 +134,8 @@
             <editableResource id="d67d2c9:1788c912586:-78d5"
                 selfDescribing="Receive and validate a response to the request you have sent."
                 type="receive_reply_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-78d9"
@@ -329,7 +331,10 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
+                        URL="" _version="1.1" allowSubPath="false"
+                        consumerType="Participate" filterHeaders="false"
+                        filterMethod="false" filterResourcePath="false"
+                        formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -346,7 +351,7 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"totalShippingCharge":"0.00000","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1","orderId":"32137647","lastUpdateDate":"2021-04-01T09:45:18.622Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"P","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","grandTotalCurrency":"USD","buyerId":"34","recordSetCount":"1","x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","grandTotal":"724.99000","orderItem":[{"unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:45:18.629Z","expectedShipDate":"2021-04-01T09:45:18.844Z","description":"Mail","language":"-1","salesTax":"0.00000","xitem_isPersonalAddressesAllowedForShipping":"true","correlationGroup":"10029","shippingTax":"0.00000","orderItemStatus":"P","offerID":"4000000000000008039","currency":"USD","shippingCharge":"0.00000","orderItemPrice":"749.99000","shipModeLanguage":"-1","createDate":"2021-04-01T09:45:18.620Z","unitPrice":"749.99000","salesTaxCurrency":"USD","quantity":"1.0","shipModeCode":"Mail","productId":"14020","shipModeDescription":"Mail","orderItemId":"10029","fulfillmentCenterId":"13001","fulfillmentCenterName":"Emerald","shipModeId":"14001","isExpedited":"false","orderItemFulfillmentStatus":"Unreleased","shippingTaxCurrency":"USD","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"partNumber":"LR-FNTR-0001-0002","totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Available"}],"storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"cart","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","totalShippingTaxCurrency":"USD","prepareIndicator":"false","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","xadju_calUsageId":"-1","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
+                            <contentTree>{"orderTypeCode":"ORD","totalShippingCharge":"0.00000","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1","orderId":"32137647","lastUpdateDate":"2021-04-01T09:45:18.622Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"P","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","grandTotalCurrency":"USD","buyerId":"34","recordSetCount":"1","x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","grandTotal":"724.99000","orderItem":[{"unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:45:18.629Z","expectedShipDate":"2021-04-01T09:45:18.844Z","description":"Mail","language":"-1","salesTax":"0.00000","correlationGroup":"10029","shippingTax":"0.00000","orderItemStatus":"P","offerID":"4000000000000008039","currency":"USD","shippingCharge":"0.00000","orderItemPrice":"749.99000","shipModeLanguage":"-1","createDate":"2021-04-01T09:45:18.620Z","unitPrice":"749.99000","salesTaxCurrency":"USD","quantity":"1.0","shipModeCode":"Mail","productId":"14020","shipModeDescription":"Mail","orderItemId":"10029","fulfillmentCenterId":"13001","fulfillmentCenterName":"Emerald","xitem_memberId":"19","shipModeId":"14001","isExpedited":"false","orderItemFulfillmentStatus":"Unreleased","shippingTaxCurrency":"USD","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"partNumber":"LR-FNTR-0001-0002","totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Available"}],"storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"cart","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","totalShippingTaxCurrency":"USD","prepareIndicator":"false","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","xadju_calUsageId":"-1","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
@@ -383,7 +388,15 @@
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
-                                    <setAction index="1"
+                                    <setAction index="0" path="/text/Object/orderTypeCode">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="ORD" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderTypeCode">
+                                    <_c value="ORD"/>
+                                    </updateField>
+                                    <setAction index="2"
                                     path="/text/Object/resourceId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -391,7 +404,7 @@
                                     exp="https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="2"
+                                    <setAction index="3"
                                     path="/text/Object/orderId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -399,7 +412,7 @@
                                     exp="32137647" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="3"
+                                    <setAction index="4"
                                     path="/text/Object/lastUpdateDate"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -414,7 +427,7 @@
                                     <fieldAction type="8"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="9"
+                                    <setAction index="10"
                                     path="/text/Object/buyerId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -422,7 +435,7 @@
                                     exp="34" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="20" path="/text/Object/grandTotal">
+                                    <setAction index="21" path="/text/Object/grandTotal">
                                     <fieldAction
                                     description="Store copy of field in tag 'piAmount'"
                                     tN="piAmount" type="2">
@@ -432,6 +445,15 @@
                                     <updateField path="/text/Object/orderItem">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/orderItem/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/orderItem/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -451,7 +473,7 @@
                                     exp="2021-04-01T09:45:18.844Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="8"
+                                    <setAction index="7"
                                     path="/text/Object/orderItem/0/correlationGroup"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -459,7 +481,7 @@
                                     exp="10029" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="11"
+                                    <setAction index="10"
                                     path="/text/Object/orderItem/0/offerID"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -467,7 +489,7 @@
                                     exp="4000000000000008039" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="16"
+                                    <setAction index="15"
                                     path="/text/Object/orderItem/0/createDate"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -475,12 +497,36 @@
                                     exp="2021-04-01T09:45:18.620Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="23"
+                                    <setAction index="22"
                                     path="/text/Object/orderItem/0/orderItemId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction enabled="false"
                                     exp="10029" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="25"
+                                    path="/text/Object/orderItem/0/xitem_memberId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="19" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="25" path="/text/Object/orderItem/0/xitem_memberId">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="19" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/xitem_memberId">
+                                    <_c value="19"/>
+                                    </updateField>
+                                    <setAction index="26"
+                                    path="/text/Object/orderItem/0/shipModeId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="14001" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <updateField path="/text/Object/orderItem/0/adjustment">

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275692"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-7874"
-    type="test_resource" updatedTimestamp="1618568936326"
-    updatedUser="STUART.WALKER" version="1.1">
-    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    type="test_resource" updatedTimestamp="1652433247452"
+    updatedUser="unknown" version="1.1">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
             <editableResource id="d67d2c9:1788c912586:-7872"
                 selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
                 type="send_request_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; on resource &quot;/wcs/resources/store/%%storeId%%/order/%%orderId%%?langId=-1&quot; using schema &quot;Text&quot; via &quot;Emerald WCS API Endpoint&quot;" transport="6b10b499:1788e004ea0:-7a7b">
                     <headerMessage meTy="Message" type="12" version="1.2">
@@ -124,7 +125,8 @@
             <editableResource id="d67d2c9:1788c912586:-786e"
                 selfDescribing="Receive and validate a response to the request you have sent."
                 type="receive_reply_action" version="1.1">
-                <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                <loggingConfiguration debug="false"
+                    resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; using schema &quot;Text&quot; timeout 30000ms"
                     sendRequestID="d67d2c9:1788c912586:-7872"
@@ -320,7 +322,10 @@
                         </_c>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
+                        URL="" _version="1.1" allowSubPath="false"
+                        consumerType="Participate" filterHeaders="false"
+                        filterMethod="false" filterResourcePath="false"
+                        formatter="HTTP_Message" transport="6b10b499:1788e004ea0:-7a7b"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
@@ -337,7 +342,7 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"totalShippingCharge":"0.00000","orderTypeCode":"ORD","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/order/36511373?langId=-1","orderId":"36511373","lastUpdateDate":"2021-04-01T09:49:12.835Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"M","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","buyerId":"38","grandTotalCurrency":"USD","recordSetCount":"1","paymentInstruction":[{"piId":"10019","country":"test","personTitle":"","lastName":"test","zipCode":"401234","city":"test","postalCode":"401234","phone2":"","phone2Publish":"true","phone1Publish":"true","piDescription":"Cash on delivery","payMethodId":"COD","phone1":"","xpaym_tokenization":"false","email2":"","email1":"test@test.com","xpaym_policyId":"14506","fax2":"","state":"test","fax1":"","piAmount":"724.99000","billing_address_id":"3074457357707646707","nickName":"Test","addressLine":["test","test",""],"piLanguage":"-1","stateOrProvinceName":"test","piStatus":"Success","firstName":"test","piCurrency":"USD","protocolData":[{"name":"billing_address_id","value":"3074457357707646707"},{"name":"billto_zipcode","value":"401234"},{"name":"billto_address1","value":"test"},{"name":"billto_country","value":"test"},{"name":"billto_lastname","value":"test"},{"name":"billto_stateprovince","value":"test"},{"name":"billto_city","value":"test"},{"name":"billto_firstname","value":"test"},{"name":"payment_method","value":"COD"}],"middleName":"","xpaym_punchoutPayment":"false"}],"x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","placedDate":"2021-04-01T09:49:12.830Z","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","orderItem":[{"zipCode":"401234","personTitle":"","country":"test","unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:49:12.830Z","postalCode":"401234","phone2":"","availableDate":"2021-04-01T09:49:12.780Z","phone2Publish":"true","salesTax":"0.00000","phone1Publish":"true","phone1":"","addressId":"3074457357707646707","correlationGroup":"10033","email2":"","email1":"test@test.com","fax2":"","shippingCharge":"0.00000","fax1":"","state":"test","orderItemPrice":"749.99000","shipModeLanguage":"-1","unitPrice":"749.99000","productId":"14020","shipModeCode":"Mail","shipModeDescription":"Mail","nickName":"Test","fulfillmentCenterName":"Emerald","firstName":"test","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","usage":"Discount","description":"Save $25 on all orders over $200 USD","currency":"USD","language":"-1"}],"totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Allocated","lastName":"test","city":"test","expectedShipDate":"2021-04-02T09:49:13.038Z","xitem_isPersonalAddressesAllowedForShipping":"true","shippingTax":"0.00000","orderItemStatus":"M","offerID":"4000000000000008039","currency":"USD","createDate":"2021-04-01T09:49:10.886Z","salesTaxCurrency":"USD","quantity":"1.0","fulfillmentCenterId":"13001","orderItemId":"10033","shipModeId":"14001","orderItemFulfillmentStatus":"Unreleased","isExpedited":"false","addressLine":["test","test",""],"shippingTaxCurrency":"USD","stateOrProvinceName":"test","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","middleName":"","partNumber":"LR-FNTR-0001-0002"}],"grandTotal":"724.99000","storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"order","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","prepareIndicator":"true","totalShippingTaxCurrency":"USD","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","xadju_calUsageId":"-1","description":"Save $25 on all orders over $200 USD","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
+                            <contentTree>{"totalShippingCharge":"0.00000","orderTypeCode":"ORD","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/order/36511373?langId=-1","orderId":"36511373","lastUpdateDate":"2021-04-01T09:49:12.835Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"M","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","buyerId":"38","grandTotalCurrency":"USD","recordSetCount":"1","paymentInstruction":[{"piId":"10019","country":"test","personTitle":"","lastName":"test","zipCode":"401234","city":"test","postalCode":"401234","phone2":"","phone2Publish":"true","phone1Publish":"true","piDescription":"Cash on delivery","payMethodId":"COD","phone1":"","xpaym_tokenization":"false","email2":"","email1":"test@test.com","xpaym_policyId":"14506","fax2":"","state":"test","fax1":"","piAmount":"724.99000","billing_address_id":"3074457357707646707","nickName":"Test","addressLine":["test","test",""],"piLanguage":"-1","stateOrProvinceName":"test","piStatus":"Success","firstName":"test","piCurrency":"USD","protocolData":[{"name":"billing_address_id","value":"3074457357707646707"},{"name":"billto_zipcode","value":"401234"},{"name":"billto_address1","value":"test"},{"name":"billto_country","value":"test"},{"name":"billto_lastname","value":"test"},{"name":"billto_stateprovince","value":"test"},{"name":"billto_city","value":"test"},{"name":"billto_firstname","value":"test"},{"name":"payment_method","value":"COD"}],"middleName":"","xpaym_punchoutPayment":"false"}],"x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","placedDate":"2021-04-01T09:49:12.830Z","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","orderItem":[{"zipCode":"401234","personTitle":"","country":"test","unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:49:12.830Z","postalCode":"401234","phone2":"","availableDate":"2021-04-01T09:49:12.780Z","phone2Publish":"true","salesTax":"0.00000","phone1Publish":"true","phone1":"","addressId":"3074457357707646707","correlationGroup":"10033","email2":"","email1":"test@test.com","fax2":"","shippingCharge":"0.00000","fax1":"","state":"test","orderItemPrice":"749.99000","shipModeLanguage":"-1","unitPrice":"749.99000","productId":"14020","shipModeCode":"Mail","shipModeDescription":"Mail","nickName":"Test","fulfillmentCenterName":"Emerald","firstName":"test","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","usage":"Discount","description":"Save $25 on all orders over $200 USD","currency":"USD","language":"-1"}],"totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Allocated","lastName":"test","city":"test","expectedShipDate":"2021-04-02T09:49:13.038Z","shippingTax":"0.00000","orderItemStatus":"M","offerID":"4000000000000008039","currency":"USD","createDate":"2021-04-01T09:49:10.886Z","salesTaxCurrency":"USD","quantity":"1.0","fulfillmentCenterId":"13001","orderItemId":"10033","xitem_memberId":"25","shipModeId":"14001","orderItemFulfillmentStatus":"Unreleased","isExpedited":"false","addressLine":["test","test",""],"shippingTaxCurrency":"USD","stateOrProvinceName":"test","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","middleName":"","partNumber":"LR-FNTR-0001-0002"}],"grandTotal":"724.99000","storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"order","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","prepareIndicator":"true","totalShippingTaxCurrency":"USD","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","xadju_calUsageId":"-1","description":"Save $25 on all orders over $200 USD","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
@@ -507,6 +512,15 @@
                                     <updateField path="/text/Object/orderItem">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/orderItem/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/orderItem/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -556,7 +570,7 @@
                                     exp="2021-04-02T09:49:13.038Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="39"
+                                    <setAction index="38"
                                     path="/text/Object/orderItem/0/offerID"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -564,7 +578,7 @@
                                     exp="4000000000000008039" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="41"
+                                    <setAction index="40"
                                     path="/text/Object/orderItem/0/createDate"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -572,7 +586,7 @@
                                     exp="2021-04-01T09:49:10.886Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="45"
+                                    <setAction index="44"
                                     path="/text/Object/orderItem/0/orderItemId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -580,6 +594,22 @@
                                     exp="10033" type="0"/>
                                     </fieldAction>
                                     </setAction>
+                                    <setAction index="45"
+                                    path="/text/Object/orderItem/0/xitem_memberId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="25" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="45" path="/text/Object/orderItem/0/xitem_memberId">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="25" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/xitem_memberId">
+                                    <_c value="25"/>
+                                    </updateField>
                                     <updateField path="/text/Object/orderItem/0/addressLine">
                                     <_c assocdefid="Array"/>
                                     </updateField>
